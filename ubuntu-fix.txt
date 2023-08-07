@@ -1,0 +1,7 @@
+LETAK LIST REPO PADA LINUX
+
+/etc/apt/sources.list
+
+SEDANGKAN REPO EXTERNAL(SELAIN DARI UBUNTU)
+
+/ect/apt/source.list.d
