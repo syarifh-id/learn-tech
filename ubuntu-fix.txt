@@ -1,3 +1,17 @@
+Catatan bagaimana kita mengoperasikan Linux,
+
+Linux adalah salah satu Operating system yang bersifat open source 
+sehingga kita dapat bebas melakukan apapun pada OS ini
+
+akan tetapi mungkin kebanyakan dari mayarakat asing dan kurang familiar dengan cara pengoperasian OS ini.
+
+
+
+
+
+
+s
+
 LETAK LIST REPO PADA LINUX
 
 /etc/apt/sources.list
