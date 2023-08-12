@@ -5,12 +5,19 @@ sehingga kita dapat bebas melakukan apapun pada OS ini
 
 akan tetapi mungkin kebanyakan dari mayarakat asing dan kurang familiar dengan cara pengoperasian OS ini.
 
+perintah dasar pada linux
 
+pwd melihat letak tempat bekerja
 
+ls melihat isi folder
 
+cd pindah ke direktori tertentu
 
+cp copy
 
-s
+mv 'cut'
+
+rm menghapus
 
 LETAK LIST REPO PADA LINUX
 
