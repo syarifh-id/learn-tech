@@ -19,6 +19,13 @@ mv 'cut'
 
 rm menghapus
 
+
+Comand yang berhubungan dengan jaringan
+
+ifconfig
+
+id add
+
 LETAK LIST REPO PADA LINUX
 
 /etc/apt/sources.list
