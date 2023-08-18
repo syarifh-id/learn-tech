@@ -1,0 +1,30 @@
+Transfer file using scp
+
+scp (secure copy) is the simplest method for transferring files remotely. It requires SSH access to the remote server and operates like the cp command but for remote transfers. When using scp, you must specify the remote host's DNS name or IP address and provide login credentials. You can use scp for local-to-remote and remote-to-local transfers.
+
+    Copy a single file from local to remote with scp.
+
+    $ scp myfile.txt remoteuser@remoteserver:/remote/folder/
+
+    If the target folder (/remote/folder/) is not specified, it will copy the file to the remote user's home directory.
+    Transfer a single file from remote to local using scp.
+
+    $ scp remoteuser@remoteserver:/remote/folder/remotefile.txt  localfile.txt
+
+    Using . as the copy target (replacing localfile.txt will copy the remote file to the current working directory using the same filename (remotefile.txt)
+    Copy multiple files from local to remote with scp.
+
+    $ scp myfile.txt myfile2.txt remoteuser@remoteserver:/remote/folder/
+
+    Copy all files from local to remote using scp.
+
+    $ scp * remoteuser@remoteserver:/remote/folder/
+
+    Copy files and folders recursively from local to remote with scp.
+
+    $ scp -r * remoteuser@remoteserver:/remote/folder/
+
+    remoteuser need to exist and have write permission to /remote/folder/ in the remote system.
+
+    GUI programs such WinSCP can also be used to transfer files between local and remote host using scp methods.
+
