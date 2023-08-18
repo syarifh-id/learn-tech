@@ -1,0 +1,21 @@
+Pesan "Unable to negotiate with 192.168.122.154 port 22: no matching host key type found. Their offer: ssh-rsa,ssh-dss" adalah pesan kesalahan yang muncul saat Anda mencoba melakukan koneksi SSH ke host dengan alamat IP 192.168.122.154 pada port 22. Pesan tersebut mengindikasikan bahwa ada masalah dalam negosiasi koneksi karena tidak ada tipe kunci host yang cocok ditemukan. Penawaran yang diberikan oleh host tersebut adalah "ssh-rsa" dan "ssh-dss".
+
+Pesan ini umumnya muncul saat ada perbedaan dalam tipe atau algoritma kunci yang didukung oleh klien SSH (Anda) dan host yang ingin Anda hubungi. Dalam beberapa tahun terakhir, algoritma kunci seperti "ssh-rsa" dan "ssh-dss" telah dianggap kurang aman dan mulai dihindari. Banyak implementasi SSH modern lebih memilih algoritma kunci yang lebih kuat dan aman, seperti ECDSA (Elliptic Curve Digital Signature Algorithm) atau RSA baru.
+
+Untuk mengatasi masalah ini, Anda dapat mencoba beberapa langkah berikut:
+
+Perbarui Klien SSH Anda: Pastikan Anda menggunakan versi klien SSH yang lebih baru yang mendukung algoritma kunci yang lebih aman.
+
+Perbarui Host SSH: Jika Anda memiliki kontrol atas host yang ingin Anda hubungi, pastikan bahwa host tersebut juga diperbarui dan mendukung algoritma kunci yang lebih aman.
+
+Konfigurasi Klien SSH: Jika Anda menggunakan OpenSSH sebagai klien, Anda bisa menambahkan beberapa baris konfigurasi di file ~/.ssh/config (atau di /etc/ssh/ssh_config untuk konfigurasi global) untuk memberitahu klien SSH untuk menggunakan algoritma kunci yang diinginkan. Contohnya:
+
+markdown
+Copy code
+Host 192.168.122.154
+    HostKeyAlgorithms +ssh-rsa
+Pastikan Anda mengganti +ssh-rsa dengan algoritma kunci yang diinginkan.
+
+Kontak Administrator Sistem: Jika Anda tidak memiliki kontrol atas host yang ingin Anda hubungi, hubungi administrator sistem host untuk mendapatkan informasi lebih lanjut tentang algoritma kunci yang mereka dukung atau untuk meminta pembaruan jika perlu.
+
+Perlu diingat bahwa keamanan adalah prioritas utama dalam koneksi SSH. Jika mungkin, selalu disarankan untuk menggunakan algoritma kunci yang lebih aman dan menghindari algoritma yang telah dianggap kurang aman.
