@@ -19,3 +19,29 @@ Pastikan Anda mengganti +ssh-rsa dengan algoritma kunci yang diinginkan.
 Kontak Administrator Sistem: Jika Anda tidak memiliki kontrol atas host yang ingin Anda hubungi, hubungi administrator sistem host untuk mendapatkan informasi lebih lanjut tentang algoritma kunci yang mereka dukung atau untuk meminta pembaruan jika perlu.
 
 Perlu diingat bahwa keamanan adalah prioritas utama dalam koneksi SSH. Jika mungkin, selalu disarankan untuk menggunakan algoritma kunci yang lebih aman dan menghindari algoritma yang telah dianggap kurang aman.
+
+
+
+start ssh service
+sshd
+
+nmap localhost
+
+
+Home / Android / Tutorial
+Cara Install dan Akses SSH Server Android Melalui Termux dan Akses Via Windows
+By Gylang Satria 1/10/2021 1 Comment
+
+pkg update
+
+pkg install openssh nmap -y
+
+sshd
+
+nmap localhost
+
+whoami
+
+passwd user-account
+
+ssh u0_a203@192.168.43.76 -p 8022
