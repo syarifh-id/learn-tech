@@ -1,0 +1,31 @@
+    Mode Normal (Normal Mode):
+        i: Masuk ke mode penyisipan sebelum posisi kursor.
+        a: Masuk ke mode penyisipan setelah posisi kursor.
+        o: Membuka baris baru di bawah kursor dan masuk ke mode penyisipan.
+        O: Membuka baris baru di atas kursor dan masuk ke mode penyisipan.
+        x: Menghapus karakter di bawah kursor.
+        dd: Menghapus baris di bawah kursor.
+        yy: Menyalin (copy) baris di bawah kursor.
+        p: Menempelkan (paste) teks yang telah disalin setelah kursor.
+
+    Mode Command (Command Mode):
+        :q: Keluar dari Vim (tutup).
+        :q!: Keluar dari Vim tanpa menyimpan perubahan.
+        :w: Simpan (write) perubahan ke file.
+        :wq: Simpan perubahan dan keluar dari Vim.
+        :x: Sama seperti :wq, simpan perubahan dan keluar.
+        :e <namafile>: Buka file baru.
+        :set nu: Menampilkan nomor baris.
+        :set nonu: Menyembunyikan nomor baris.
+
+    Mode Visual (Visual Mode):
+        v: Masuk ke mode visual karakter, di mana Anda dapat memilih teks karakter per karakter.
+        V: Masuk ke mode visual baris, di mana Anda dapat memilih baris secara keseluruhan.
+        Ctrl + v: Masuk ke mode visual blok, di mana Anda dapat memilih area dalam bentuk blok.
+
+    Navigasi:
+        h, j, k, l: Menggerakkan kursor ke kiri, bawah, atas, dan kanan secara berturut-turut.
+        G: Pindah ke baris akhir file.
+        gg: Pindah ke baris awal file.
+        :n: Pindah ke baris nomor "n".
+        /pattern: Mencari pola "pattern" dari atas ke bawah.
