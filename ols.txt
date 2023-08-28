@@ -1,0 +1,47 @@
+Add the Repository
+
+Use the following command to add our Debian repository:
+
+Debian 9, 10, 11 & Ubuntu 18, 20, 22 :
+
+wget -O - https://repo.litespeed.sh | sudo bash
+Copy
+
+Install OpenLiteSpeed
+
+The following command installs the latest version of OpenLiteSpeed.
+
+apt-get install openlitespeed
+
+Copy
+
+You can also specify version numbers. For example apt-get install openlitespeed-1.7.16, will install OLS v1.7.16.
+
+Note: The OpenLiteSpeed packages in our repositories have SPDY enabled. The binary also includes the OpenSSL library needed to run SPDY. You do not have to install OpenSSL 1.0.1 to use SPDY if you download the package from the repositories.
+Install PHP
+
+The following commands will install PHP 8.1 with all commonly-used packages for OpenLiteSpeed from our Debian Repo, and direct OpenLiteSpeed to use this PHP. This build of PHP should be enough to support the most commonly used web applications.
+
+apt-get install lsphp81 lsphp81-common lsphp81-curl lsphp81-mysql lsphp81-opcache lsphp81-imap lsphp81-opcache 
+
+Copy
+
+If you wish to install another version such as PHP 8.0, replace lsphp81 with that other version, for example lsphp80.
+
+To use a custom PHP build, see our wikis on PHP via RPM and build a custom PHP from the source.
+
+If you prefer not to use symbolic link setup for PHP, please log into the WebAdmin Console at port 7080, and update the PHP version/path via the Server Configuration > External App > Command.
+Getting Started
+
+OpenLiteSpeed’s default installation directory is /usr/local/lsws. The WebAdmin randomly generated password is stored in the /usr/local/lsws/adminpasswd file.
+
+For detailed information on controlling the server processes, please see the Administration Guide.
+Start the Server
+
+To start the server, run systemctl start lsws. (If you ever want to stop the server, you can run systemctl stop lsws.)
+
+A sample site should now be running on the server.
+
+To access your site, point your browser to http://[address]:8088/, [address] being the IP address or domain name of your web server machine. Use localhost if the server is on the same machine that you are currently using. By default, OpenLiteSpeed runs on port 8088.
+
+A Congratulations page linked to other testing pages should load into the browser when pointed to the above address.
