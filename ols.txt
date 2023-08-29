@@ -1,19 +1,13 @@
-Add the Repository
-
-Use the following command to add our Debian repository:
-
-Debian 9, 10, 11 & Ubuntu 18, 20, 22 :
 
 wget -O - https://repo.litespeed.sh | sudo bash
 Copy
 
 Install OpenLiteSpeed
 
-The following command installs the latest version of OpenLiteSpeed.
 
 apt-get install openlitespeed
 
-Copy
+
 
 You can also specify version numbers. For example apt-get install openlitespeed-1.7.16, will install OLS v1.7.16.
 
