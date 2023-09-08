@@ -1,0 +1,6 @@
+
+install lates version
+install kernl devel
+inatall akmod
+load the kernel module manually
+modprobe -a vboxdrv
