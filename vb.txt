@@ -1,6 +1,21 @@
+dnf repolist
+
+dnf config -manager --set-disabled name repo
 
 install lates version
 install kernl devel
 inatall akmod
 load the kernel module manually
 modprobe -a vboxdrv
+
+
+sudo usermod -a -G vboxusers $USER
+
+In this command, sudo allows you to run commands with the security privileges of the superuser. usermod is a command-line utility that allows you to modify a user’s system account. The -a option tells usermod to add the user to the supplementary group(s). -G specifies the group name, in this case, ‘vboxusers’. $USER is a system variable that stands for the current user.
+
+    After running this command, log out and log back in for the changes to take effect.
+    You can verify that you are in the ‘vboxusers’ group by running:
+
+groups $USER
+
+This command lists all the groups that the current user belongs to. Ensure ‘vboxusers’ is listed in the output.
