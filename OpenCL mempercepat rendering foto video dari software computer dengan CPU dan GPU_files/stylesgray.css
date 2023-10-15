@@ -1,0 +1,421 @@
+html{ height: 100%; width: 100%; margin: 0; padding: 0; border: 0; font-family: Arial, Verdana,  Helvetica, sans-serif; font-size: 8px; line-height: 7px; color:#3E3E3E; }
+body{color:#1b1b1b;font-size:16px;margin:0;line-height:1em;font-family:sans-serif;position:relative;background:#fff url(../icon/background.png) repeat-y center top}
+p {font-family:Arial ; font-size:5px;line-height:5px;}
+br {font-family:Arial ; font-size: 5px; line-height: 5px;}
+.thetable { position: relative; display: table; width: 100%; margin: 0 0 20 0; padding: 0; border: 0; clear: both;border-spacing: 0; /* required by Opera 6 */ }
+
+#navblk a { color:#FFFFFF; }
+#navblk a:hover { color:#FFFFFF;  }
+#navblk a.selected { color:#FFFFFF;; }
+#navblk a.link { color:#000000;    }
+
+#navbl a { color:#E1E1E1; }
+#navbl a:hover { color:#E1E1E1;  }
+#navbl a.selected { color:#E1E1E1;; }
+#navbl a.link { color:#000000;    }
+
+#navbg a { color:#FFFFFF; }
+#navbg a:hover { color:#3E3E3E;  }
+#navbg a.selected { color:#3E3E3E; }
+#navbg a.link { color:#000000;   }
+.art { font-size: 9px; font-family:  Helvetica, sans-serif; line-height: 6px; color:#E1E1E1;}
+.artbig {  font-family: Arial, Helvetica, sans-serif; font-size: 18px; line-height: 8px; FONT-WEIGHT: strong ;  }
+.artbold {  font-family: Arial, Helvetica, sans-serif; font-size: 9px; line-height: 8px; FONT-WEIGHT: strong ;}
+.artmetro {  font-family: Arial,Arial, Helvetica, sans-serif; font-size: 14px; line-height: 8px; FONT-WEIGHT: bold ; }
+.artmenu {  font-family: Arial, Helvetica, sans-serif; font-size: 18x; line-height: 8px;}
+.xnewin {  font-family: Arial, Helvetica; font-size: 9px; text-decoration: none}
+.artsmall {  font-family: Arial, Helvetica, sans-serif; font-size: 9px; line-height: 6px}
+
+#pilihan {margin: 0 0 0 0px; color: #000; }
+ul.drop a { display:block; color: #000; font-family: Verdana; font-size: 14px; text-decoration: none;}
+ul.drop, ul.drop li, ul.drop ul { list-style: none; margin: 0; padding: 0; background: #2E323B; color: #1686AB;}
+ul.drop { position: relative; z-index: 597; float: left; }
+ul.drop li { float: left; line-height: 1.3em; vertical-align: middle; zoom: 1; padding: 5px 10px; }
+ul.drop li.hover, ul.drop li:hover { position: relative; z-index: 599; cursor: default; background: #00E1E1; }
+ul.drop ul { visibility: hidden; position: absolute; top: 100%; left: 0; z-index: 598; width: 140px; background: #2E323B; border: 1px solid #1686AB; }
+ul.drop ul li { float: none; }
+ul.drop ul ul { top: -2px; left: 100%; }
+ul.drop li:hover > ul { visibility: visible }
+
+
+/* hide this from opera6 */
+head:first-child+body div.thetable {height: 100%;}
+.tablerow { display: table-row; }
+.cell { display: table-cell; vertical-align: top; min-height: 100%;}
+
+ /* hide this from opera6 */
+head:first-child+body div.cell {height: 100%;}
+/* added for mozilla which worked for others too, but op6 still needed min-height so hide this rule */
+
+.SL { width: 170px; position: relative; z-index: 5; padding: 0px 0px 0px 10px; }
+.SC { width: auto; padding: 0px 20px; }
+.SR { position: relative; }
+
+#Header	{ width: 100%; z-index: 10; margin-bottom: 20px; padding: 45px 0px 15px 0px;}
+#Header	h1 { margin-left: 10px; width: 190px; font-size: 36px; line-height: 36px; font-weight: bold; letter-spacing: 1px; text-transform: lowercase; padding: 5px 0px 10px 10px; margin: 0px;}
+#Header	h1 a { text-decoration: none;}
+
+#Footer { clear: both; position: relative; height: 30px; margin-top: -10px; z-index: 15; margin-bottom: 0px; font-size: 6px; text-align: center;}
+#Footer p { padding: 8px 0px; margin: 0px;}
+#Footer a { color:#666; text-decoration: underline; }
+
+/* General Links */
+a:link { text-decoration : none; border: 0px; color:#FFFFFF; FONT-WEIGHT: bold ;}
+a:active { text-decoration : none; border: 0px;color:#3E3E3E;}
+a:visited { text-decoration : none; border: 0px;color:#3E3E3E;}
+a:hover { color: #3E3E3E ; FONT-WEIGHT: bold ;   }
+a:headline { font-size: 16px; line-height: 28px;  border: 0px;color:#3E3E3E;}
+
+
+img {max-width: 25%;  height: auto;}
+
+
+hr { border-left:0px solid #abb0b5; border-right:0px solid #abb0b5; border-top:2px solid #abb0b5; border-bottom:0px solid #abb0b5; height : 1px;  }
+
+input { font-family: 'Arial'; color: #2f2928; font-size: 11px; }
+textarea { font-family: 'Arial'; color: #2f2928; font-size: 14px;  }
+select { font-family: 'Arial'; color: #2f2928; font-size: 14px;  }
+
+h1, h2 {font-size: 9px;  font-family: 'Arial'; line-height: 150%;}
+h3 {font-size: 9px;  font-family: 'Arial'; line-height: 90%;}
+h4 { font-family: 'Arial'}
+
+
+/* SC +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.SL	h2 { font-size: 14px; letter-spacing: -1px; padding: 0px 0px 5px 0px; margin: 0px 0px 5px 0px;}
+.SL ul { padding: 0px; margin: 0px; font-size: 11px; }
+.SL	li { padding: 0px; margin: 0px; list-style-type: none;}
+
+/* SR +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.SR	h2 { font-size: 14px; letter-spacing: -1px; padding: 5px 0px; margin: 0px 0px 5px 0px; border-bottom: solid 1px #999; border-top: solid 4px FF6501; color:#666;}
+.SR	ul { padding: 0px; margin: 0px; font-size: 11px; }
+.SR	li { padding: 0px 0px 5px 15px; margin: 0px; list-style-type: none; background: url(../Images/SRIco.png) no-repeat left top;}
+
+/* Search ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.Search { }
+.Search form { padding: 0px; margin: 0px;}
+.Search .input { border: inset 1px #1c3182; font-size: 12px; padding: 2px;}
+.Search .arrow { width: 56px; height: 23px; }
+.Search .arrow:hover { width: 56px; height: 23px; }
+.Search .arrowIE { width: 56px; height: 23px; }
+/*\ IE/Win min height hack */ * html .searcharrow { margin: -45px 0px 0px 212px; } /* */
+.searcharrow { padding: 0px 5px 0px 0px; margin: -45px 0px 0px 212px; background: none; }
+.Search p { padding: 0px 0px 0px 15px; margin: 5px 0px; font-size: 10px; font-weight: bold; background: url(../Images/SearchIco.png) no-repeat left center;}
+
+
+
+/* BreadCrumb  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.BreadCrumb { font-size: 12px; margin: 0px 0px 25px 0px; padding: 5px 0px 13px 0px; }
+.BreadCrumb ul { list-style-type: none; margin: 0px; padding: 0px;}
+.BreadCrumb li { background: url(../Images/trail_arrow.gif) no-repeat left center; margin: 0px 5px 0px 0px; padding: 0px 0px 0px 7px; text-decoration: none; display: inline;}
+.BreadCrumb li a { margin: 0px; padding: 0px; text-decoration: underline;}
+.BreadCrumbGreater { padding:4px; }
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.SC h1 { font-size: 26px; letter-spacing: -1px; font-weight: normal; padding: 5px 0px; margin: 0px 0px 5px 0px;}
+.SC h2 { font-size: 14px; line-height: 14px; font-weight: bold; padding: 5px 0px; margin: 0px 0px 5px 0px; color:#666; letter-spacing: -1px;}
+.SC h3 { font-size: 14px; font-weight: bold; padding: 3px 0px; margin: 0px 0px 3px 0px; color:#000; }
+
+/* PostItem */
+.SC .PostItem {display: block; clear: both;}
+
+/* Articles ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.Articles { margin: 20px 0px;}
+
+/* Featured ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.Featured { margin: 0px 0px;}
+.Featured h1 { font: arial; font-size: 10px; font-weight: bold; letter-spacing: 2px; margin-bottom: 12px; padding-left: 0px;color:#3C4A51;}
+.Featured .Post .PostHead h2 { padding-leftpost: 0px;}
+
+/* RecentArticles +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.RecentArticles { margin: 20px 0px;}
+.RecentArticles h1 { font: arial; font-size: 18px; font-weight: normal; letter-spacing: 2px; margin-bottom: 20px; padding-left: 25px;}
+
+/* Categories ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.Categories {}
+
+/* Blogs ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.Blogs {}
+
+/* Authors ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/**/ * html .Authors { height: 150px;} /**/
+.Authors { min-height: 150px;}
+
+
+
+/* Pages ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.Pages {}
+
+/* News +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.News {}
+
+/* RecentNews +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.RecentNews h1 { font: arial; font-size: 18px; font-weight: normal; letter-spacing: 2px; margin-bottom: 20px; padding-left: 25px}
+.RecentNews h3 { font: arial; font-size: 14px; padding-left: 17px; letter-spacing: -1px;}
+.RecentNews .Post { padding: 5px 0px;}
+.RecentNews .Post .PostInfo { margin: 0px; }
+
+/* SearchResults  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.SearchResults {}
+
+/* Post ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* Recent Blogs +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/**/ * html .RecentBlogsTop { left: -10px;} /* */
+.RecentBlogsTop { height: 5px; left: 0px; top: 0px; width: 170px; position: absolute;}
+.RecentBlogs { position: relative; margin-bottom: 20px; padding: 10px;}
+.RecentBlogs h1 { font-size: 14px; font-weight: bold; letter-spacing: -1px; padding: 0px 0px 5px 0px; margin: 0px 0px 5px 0px;}
+.RecentBlogs big { display: block; font-size: 10px; font-weight: bold; padding: 1px 0px 1px 0px; margin: 0px}
+.RecentBlogs small { display: block; margin-bottom: 5px; padding: 3px 0px; font-size: 9px;}
+.RecentBlogs small a { text-decoration: underline; }
+.RecentBlogs a {}
+.Post { padding: 0px; margin: 0px;}
+
+/* Post Author  */
+.Post .PostAuthorDetails { padding: 10px 0px; margin: 0px;}
+.Post .PostAuthorDetails big { font-size: 14px; letter-spacing: -1px; font-weight: bold;}
+.Post .PostAuthorDetails p { font-size: 14px; padding: 4px 0px; margin: 0px; }
+.Post .PostAuthorDetails img { margin: 0px 10px 0px 0px; padding: 1px;}
+
+/* Post Head */
+.Post .PostHead {  }
+.Post .PostHead h1 { padding: 0px 0px; margin: 0px; font-size: 32px; line-height: 8px ;  color: #39434C; }
+.Post .PostHead h2 { padding: 0px 0px; margin: 0px; font-size: 20px; line-height: 8px ;  }
+.Post .PostHead h3 { padding: 0px 0px; margin: 0px; font-size: 18px; line-height: 8px ;  }
+
+/* Post Info/Details */
+.Post .PostInfo { padding: 3px 0px 0px 0px; margin: 0px 0px 3px 0px; font-size: 10px; font-weight: bold;}
+.Post .PostInfo li { padding: 0px; margin: 0px; display: inline; list-style-type: none;}
+.Post .PostInfo a {color: #000000; text-decoration: none;}
+.Post .PostInfo .Author {color: #000000;margin-bottom: 15px;border: solid 2px #FFFFFF;padding: 0px 0px 0px 5px;font: normal 12px/18px Tahoma; font-size: 12px; font-weight: bold; padding: 0px 5px 0px 5px; margin-bottom: 15px; }
+.Post .PostInfo .Time { color: #FFFFFF;margin-bottom: 15px;border: solid 2px #ce79a6;padding: 0px 0px 0px 5px;font: normal 12px/18px Tahoma; font-size: 12px; font-weight: bold; padding: 0px 5px 0px 5px; margin-bottom: 15px; background-color: #ce79a6;}
+.Post .PostInfo .Categ {color: #000000;margin-bottom: 15px;border: solid 2px #FFFFFF;padding: 0px 0px 0px 5px;font: normal 12px/18px Tahoma; font-size: 12px; font-weight: bold; padding: 0px 5px 0px 5px;  margin-bottom: 15px;}
+.Post .PostInfo .Authorfix { width: 137px; color: #FFFFFF;border: solid 2px #FFFFFF;padding: 0px 0px 0px 5px;font: normal 12px/18px Tahoma; font-size: 12px; font-weight: bold; padding: 0px 5px 0px 5px;  }
+.Post .PostInfo .Timefix { width: 150px; color: #FFFFFF;border: solid 2px #ce79a6;padding: 0px 0px 0px 5px;font: normal 12px/18px Tahoma; font-size: 12px; font-weight: bold; padding: 0px 5px 0px 5px; background-color: #ce79a6;}
+.Post .PostInfo .Categfix { width: 110px;color: #00FCFF;border: solid 2px #95AE20;padding: 0px 0px 0px 5px;font: normal 12px/18px Tahoma; font-size: 12px; font-weight: bold; padding: 0px 5px 0px 5px; background-color: #95AE20; }
+.Post .PostInfo .Rating { padding: 0px 0px 0px 5px; font-size: 12px; }
+
+
+
+/* Post Content */
+.Post .PostContent { margin: 0px; padding: 1px 0px; font-size: 8px; line-height: 8px; color:#3E3E3E; font-family: "times";}
+.Post .PostContent img { margin: 0px 10px 10px 0px; color:#B2B2B2; }
+.Post .PostContent p { font-size: 8px; line-height: 8px; line-height: 8px; font-family: "times";color:#3E3E3E; }
+.Post .PostContent br { font-size: 8px; line-height: 8px; line-height: 8px; font-family: "times";color:#3E3E3E; }
+.Post .PostContent   a:link { text-decoration: none; font-weight: font-family: "arial"; color:#3E3E3E;line-height: 8px; }
+
+/* Post Content -Single Page */
+.Post .PostContentSingle { margin: 0px; padding: 14px 0px; font-size: 12px; line-height: 24px;}
+.Post .PostContentSingle img {}
+.Post .PostContentSingle h1 { padding: 12px 0px; margin: 0px 0px 5px 0px;}
+.Post .PostContentSingle p { font-size: 12px; line-height: 24px;}
+
+/* Post Bottom - Printer Version +  Full story + Visit Site */
+.Post .PostBottom { padding: 0px 0px 0px 0px; margin: 0px;}
+.Post .PostBottom li { padding: 2px 0px; margin: 0px 5px 0px 0px; list-style-type: none; display: inline; font-size: 12px; }
+.Post .PostBottom li a { text-decoration: none; }
+.Post .PostBottom li a:visited { text-decoration: none; }
+.Post .PostBottom li a:hover { text-decoration: none; border-bottom: solid 3px #79D2FC; color: #79D2FC;}
+.Post .PostBottom .FullStory { background: url(../Images/icon_FullStory.png) no-repeat left center; padding-left: 17px;}
+.Post .PostBottom .VisitSite { background: url(../Images/icon_VisitSite.png) no-repeat left center; padding-left: 17px;}
+.Post .PostBottom .PrinterVersion { background: url(../Images/icon_PrinterVersion.png) no-repeat left center; padding-left: 17px;}
+.Post .PostBottom .EditArticle { background: url(../Images/icon_EditArticle.png) no-repeat left center; padding-left: 17px;}
+
+/* Article More Related Info */
+.PostMore { padding: 0px; margin: 5px 0px 5px 0px;}
+.PostMore h1 { font-size: 12px; padding: 5px 0px; margin: 0px; }
+.PostMore  a:hover { color: #000000; background-color: #FAE800;}
+
+/* Article Comments */
+.Post .PostMore .Comment, .Post .PostMore .CommentAlt { padding: 5px 10px 10px 10px;}
+.Post .PostMore .Comment .Title, .Post .PostMore .CommentAlt .Title { font-size: 12px; padding: 4px 3px; padding-left:40px; margin: 0px;}
+.Post .PostMore .Comment .Details, .Post .PostMore .CommentAlt .Details { font-size: 16px; padding: 0px 3px; padding-left:40px; margin: 0px; color: #7E8996;}
+.Post .PostMore .Comment .Reply, .Post .PostMore .CommentAlt .Reply { float: right; font-size: 16px; padding-top:4px; color: #7E8996; clear: both;}
+.Post .PostMore .Comment .Content, .Post .PostMore .CommentAlt .Content { font-size: 11px; padding: 10px 0px 0px 5px; margin: 0px;}
+
+/* Article Submit Comments*/
+.PostSubmitComments { font-size: 10px;}
+
+
+/* Category Left ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.Cat { position: relative; margin-bottom: 10px; padding: 10px; }
+/**/ * html .CatTop { left: -10px;} /* */
+.CatTop { height: 5px; left: 0px; top: 0px; width: 180px; position: absolute;}
+.Cat h2 { padding-top: 0px;}
+.Cat ul { padding: 0px; margin: 0px;}
+.Cat li { padding: 0px; margin: 0px; background: none;}
+.Cat li a { display: block; padding: 3px 0px 3px 0px; margin: 0px; font-size: 11px;}
+.Cat li a:visited { display: block; padding: 3px 0px 3px 0px; margin: 0px; font-size: 11px; }
+.Cat li a:hover { display: block; padding: 3px 0px 3px 0px; margin: 0px; font-size: 11px;}
+
+/* Site Menu Left ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.SiteMenu { position: relative; padding: 10px;}
+/**/ * html .SiteMenuTop { left: -10px; height: 5px;} /**/
+.SiteMenuTop { height: 5px; left: 0px; top: 0px; width: 170px; position: absolute;}
+.SiteMenu ul { padding: 0px; margin: 0px;}
+.SiteMenu li { padding: 2px 0px; font-size: 11px; }
+
+/* Block Area ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.ArticleOptions {  margin-bottom: 15px; position: relative;}
+.PopularArticles {  margin-bottom: 15px; margin: 0px 0px 40px 0px;}
+.FavoriteArticles {  margin-bottom: 15px; position: relative;}
+.ArticleHistory { margin-bottom: 15px; position: relative;}
+.ArticlesToRead {  margin-bottom: 15px; position: relative;}
+.PopularAuthors {  margin-bottom: 10px; position: relative;}
+
+
+/* Article Navigation +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/**/ * html .ArtNav { height: 35px;} /**/
+.ArtNav {font-size: 12px; line-height: 18px; padding: 6px; min-height: 35px; font-weight: bold;background: white }
+.ArtNav strong { letter-spacing: 8px;}
+.ArtNavLeft { float: left }
+.ArtNavRight { float: right }
+
+/* Paging +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.Paging { text-align: right; padding: 6px; margin: 5px 0px; font-size: 10px; line-height: 15px;}
+.Paging strong { letter-spacing: -1px;}
+
+/* Category Top ( Only on the Category page) ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.Category { padding: 0px; margin: 10px 0px 10px 0px; position: relative;}
+.Category h1 { font-size: 20px; }
+.Category .Desc { font-size: 11px; line-height: 16px; }
+.Category .rss { position: absolute; right: 0px; top: 15px;}
+.Category .SubCategory ul { padding: 15px 0px 5px 0px; margin: 0px;}
+.Category .SubCategory li { background: url(../Images/SubCategoryIcon.png) no-repeat left center; padding: 3px 0px 3px 20px; margin: 0px; font-size: 12px; list-style-type: none;}
+.Category .SubCategory ul {  width: 38em; }
+.Category .SubCategory ul li { float: left; width: 15em;  /* accommodate the widest item */ }
+/* stop the floating after the list */
+.Category .SubCategory br { clear: left; }
+/* separate the list from what follows it */
+.Category .SubCategory { margin-bottom: 1em; }
+
+/* Authors A-Z - ( Only on the Author page) +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.AZ { padding: 0px; margin: 15px 0px; position: relative; font-size: 10px; font-weight: bold;}
+.AZ ol { padding: 10px; margin: 0px;}
+.AZ ul { padding: 10px; margin: 0px;}
+.AZ li { padding: 0px; margin: 0px; list-style-type: none; display: inline;}
+.AZ a { padding: 0px 3px; margin-right: 1px;}
+.AZ a:visited { padding: 1px 3px;}
+.AZ a:hover { padding: 1px 3px; }
+
+/* ListAuthors ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.ListAuthors {}
+.ListAuthors ul { margin: 0px; padding: 0px 0px 0px 20px; }
+.ListAuthors li { line-height: 16px;}
+
+/* PageForms +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.PageForms {font-size: 10px;}
+.PageForms form {}
+.PageForms td { padding: 10px; }
+.PageForms th { padding: 10px 2px 10px 10px; text-align: left; font-size: 12px; font-family: "arial"; font-weight: normal;}
+.PageForms td table td { padding: 3px; font-size: 11px; }
+.PageForms td table td input { padding: 3px; }
+.PageForms td table td input.keyfield { border: inset 1px #ccc; padding: 3px; }
+.PageForms td table td textarea { border: inset 1px #ccc; padding: 5px; }
+.PageForms td table td select { border: inset 1px #ccc; padding: 2px; }
+
+.PageForms .Button { font-size: 10px; padding: 2px 5px; font-weight: bold;}
+.PageForms .Required { color:#FF0000;}
+
+.PageForms tr td { padding: 10px; }
+.PageForms tr td table tr td { padding: 3px; font-size: 11px; }
+.PageForms tr td table tr td table tr td { padding: 0px; font-size: 11px; }
+
+/* Site Message +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+.Message { color: #000;  font-size: 11px; padding: 5px 5px 5px 25px; line-height: 5px;  margin-left: 5px;}
+.ErrorMessage { color: #FF0000; background: url(../Images/exclamation.png) no-repeat left center; font-size: 11px;}
+.SuccessMessage { color: #FF0000; background: url(../Images/success.png) no-repeat left center; font-size: 11px;}
+
+
+/* Author Tabs +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+#tabnav { height: 26px; margin: 0px 0px 10px 0px; padding-left: 6px; background: url(../Images/tab_bottom.gif) repeat-x bottom;}
+#tabnav li { margin: 0; padding: 0;	display: inline; list-style-type: none; font-size: 10px; font-weight: bold;}
+#tabnav .navlinks {margin: 0; padding: 0; display: inline; list-style-type: none; float: right;}
+.tablink { float: left; }
+#tabnav .tablink a:link, #tabnav  .tablink a:visited
+{ float: left; line-height: 14px; padding: 5px 10px; margin: 0px 4px 0px 0px ; text-decoration: none;}
+#tabnav .tablink a:link.active, #tabnav .tablink a:visited.active {}
+#tabnav a:hover {}
+
+/* ViewAll ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.ViewAll { background: url(../Images/ViewAllIco.png) no-repeat left center; padding-left: 15px; font-size: 10px; font-weight: bold;}
+
+/* Paging +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+.Paging { text-align: right; padding: 5px; margin: 5px 0px; font-size: 10px; line-height: 15px;}
+.Paging strong { letter-spacing: -1px;}
+.Paging a { display: inline; padding: 2px 5px; font-weight: bold; }
+.Paging a:visited { display: inline; padding: 2px 5px; }
+.Paging a:hover { display: inline; padding: 2px 5px; text-decoration: none;}
+.PagingDisabled { display: inline; padding: 2px 5px; font-weight: bold;}
+.PagingCurrentPageNumber { display: inline; font-weight: bold; padding: 2px 5px; font-weight: bold;}
+
+.SpreadTheWord {}
+.SpreadTheWord ul { padding: 0px; margin: 0px; background-color: #cecece;}
+.SpreadTheWord li { padding: 0px 2px; margin: 0px; list-style-type: none; display: inline; font-size: 12px; line-height: 16px; }
+
+/* Paging */
+.Paging { text-align: right; padding: 6px; margin: 5px 0px; font-size: 10px; line-height: 15px;}
+.Paging strong { letter-spacing: -1px;}
+.Paging a { display: inline; padding: 2px 5px;}
+.Paging a:visited {}
+.Paging a:hover { text-decoration: none;}
+.PagingDisabled { display: inline; padding: 2px 5px; }
+.PagingCurrentPageNumber { display: inline; font-weight: bold; padding: 2px 5px;}
+
+
+.msgWarning
+{
+	background-image: url('../Images/warning.gif');
+	background-repeat: no-repeat;
+	background-position: 6px 7px;
+	font: normal 11px/18px Tahoma;
+	padding: 5px;
+	margin-bottom: 15px;
+	padding-left: 25px;
+	border: dotted 1px #C0C0C0;
+	background-color: lightyellow;
+	color: #333333;
+	text-decoration: none;
+	display: '';
+	z-index:1000;
+	width: 220px;
+}
+
+
+.ArticleExtraContent { font-size: 11px;}
+.ArticleExtra ol, .ArticleExtra ol li { font-size: 11px;}
+.ArticleExtra ul, .ArticleExtra ul li { font-size: 11px;}
+
+
+.ArticleExtra ul { padding-top: 0px; padding-bottom: 0px; margin:0px; list-style-type: none;  padding-left: 20px;}
+.ArticleExtra ul li a {  font-size: 11px; display: block; padding-left: 20px; background: url(../Images/ArrowLeft.png) no-repeat left top; }
+
+/* Summary Article Attachment */
+.AttachmentList { padding: 6px;}
+.AttachmentList ul { padding-top: 0px; padding-bottom: 0px; margin:0px; list-style-type: none;  padding-left: 20px;}
+.AttachmentList ul li { padding: 3px;}
+.AttachmentList ul li a { font-size: 10px; display: block; padding-left: 20px; }
+.AttachmentHeading { font-size: 11px; font-weight: bold; font-family:Arial,Helvetica,sans-serif;}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.SR .Newsletter { margin-bottom: 15px; font-size: 11px; }
+.SR .Newsletter h2 { margin-bottom: 10px;}
+
+/* Teaser Image Styles */
+.FeatureImageSpan { font-size: 9px; margin: 5px;}
+.FeatureImageCaption {  padding-left: 3px; padding-right: 3px;}
+
