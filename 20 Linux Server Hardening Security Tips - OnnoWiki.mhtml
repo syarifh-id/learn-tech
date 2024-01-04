@@ -1,0 +1,2952 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://lms.onnocenter.or.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips
+Subject: 20 Linux Server Hardening Security Tips - OnnoWiki
+Date: Thu, 4 Jan 2024 21:57:04 +0700
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--D4vkrxqZFIStPzlkieiIXrv9tko1a7N6VcDV97owcp----"
+
+
+------MultipartBoundary--D4vkrxqZFIStPzlkieiIXrv9tko1a7N6VcDV97owcp----
+Content-Type: text/html
+Content-ID: <frame-BC3706A252B99B2CB5570549BEBDE2B7@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://lms.onnocenter.or.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips
+
+<!DOCTYPE html><html lang=3D"en" dir=3D"ltr" class=3D"client-js"><head><met=
+a http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8"><link =
+rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-d2d4d8ed-1f8d-46c7-acd=
+d-60d42cd9f70f@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" hr=
+ef=3D"cid:css-3cd11234-a9b5-442b-94b9-faf8a2999ade@mhtml.blink" />
+
+<title>20 Linux Server Hardening Security Tips - OnnoWiki</title>
+
+
+<link rel=3D"stylesheet" href=3D"https://lms.onnocenter.or.id/wiki/load.php=
+?debug=3Dfalse&amp;lang=3Den&amp;modules=3Dmediawiki.legacy.commonPrint%2Cs=
+hared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vect=
+or.styles&amp;only=3Dstyles&amp;skin=3Dvector">
+<meta name=3D"ResourceLoaderDynamicStyles" content=3D"">
+
+<meta name=3D"generator" content=3D"MediaWiki 1.27.7">
+<link rel=3D"shortcut icon" href=3D"https://lms.onnocenter.or.id/favicon.ic=
+o">
+<link rel=3D"search" type=3D"application/opensearchdescription+xml" href=3D=
+"https://lms.onnocenter.or.id/wiki/opensearch_desc.php" title=3D"OnnoWiki (=
+en)">
+<link rel=3D"EditURI" type=3D"application/rsd+xml" href=3D"https://lms.onno=
+center.or.id/wiki/api.php?action=3Drsd">
+<link rel=3D"alternate" type=3D"application/atom+xml" title=3D"OnnoWiki Ato=
+m feed" href=3D"https://lms.onnocenter.or.id/wiki/index.php?title=3DSpecial=
+:RecentChanges&amp;feed=3Datom">
+</head>
+<body class=3D"mediawiki ltr sitedir-ltr ns-0 ns-subject page-20_Linux_Serv=
+er_Hardening_Security_Tips rootpage-20_Linux_Server_Hardening_Security_Tips=
+ skin-vector action-view">
+		<div id=3D"mw-page-base" class=3D"noprint"></div>
+		<div id=3D"mw-head-base" class=3D"noprint"></div>
+		<div id=3D"content" class=3D"mw-body" role=3D"main">
+			<a id=3D"top"></a>
+
+						<div class=3D"mw-indicators">
+</div>
+			<h1 id=3D"firstHeading" class=3D"firstHeading" lang=3D"en">20 Linux Serv=
+er Hardening Security Tips</h1>
+									<div id=3D"bodyContent" class=3D"mw-body-content">
+									<div id=3D"siteSub">From OnnoWiki</div>
+								<div id=3D"contentSub"></div>
+												<div id=3D"jump-to-nav" class=3D"mw-jump">
+					Jump to:					<a href=3D"https://lms.onnocenter.or.id/wiki/index.php/20=
+_Linux_Server_Hardening_Security_Tips#mw-head">navigation</a>, 					<a href=
+=3D"https://lms.onnocenter.or.id/wiki/index.php/20_Linux_Server_Hardening_S=
+ecurity_Tips#p-search">search</a>
+				</div>
+				<div id=3D"mw-content-text" lang=3D"en" dir=3D"ltr" class=3D"mw-content=
+-ltr"><p>Sumber: <a rel=3D"nofollow" class=3D"external free" href=3D"http:/=
+/www.cyberciti.biz/tips/linux-security.html">http://www.cyberciti.biz/tips/=
+linux-security.html</a>
+</p><p>Mengamankan <a href=3D"https://lms.onnocenter.or.id/wiki/index.php/S=
+erver" title=3D"Server">server</a> <a href=3D"https://lms.onnocenter.or.id/=
+wiki/index.php/Linux" title=3D"Linux">Linux</a> anda sangat penting untuk m=
+emproteksi data, hak cipta, dan waktu, dari tangan2 jahil para cracker. Sis=
+tem administrator bertanggung jawab untuk keamanan <a href=3D"https://lms.o=
+nnocenter.or.id/wiki/index.php/Linux" title=3D"Linux">linux</a>. Pada bagia=
+n ini akan di jelaskan 20 tip untuk mengamankan instalasi <a href=3D"https:=
+//lms.onnocenter.or.id/wiki/index.php/Linux" title=3D"Linux">linux</a> stan=
+dard.
+</p>
+<div id=3D"toc" class=3D"toc"><div id=3D"toctitle"><h2>Contents</h2><span c=
+lass=3D"toctoggle">&nbsp;[<a href=3D"https://lms.onnocenter.or.id/wiki/inde=
+x.php/20_Linux_Server_Hardening_Security_Tips#" id=3D"togglelink">hide</a>]=
+&nbsp;</span></div>
+<ul>
+<li class=3D"toclevel-1 tocsection-1"><a href=3D"https://lms.onnocenter.or.=
+id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Enkripsi_Komunika=
+si_Data"><span class=3D"tocnumber">1</span> <span class=3D"toctext">Enkrips=
+i Komunikasi Data</span></a>
+<ul>
+<li class=3D"toclevel-2 tocsection-2"><a href=3D"https://lms.onnocenter.or.=
+id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Jangan_gunakan_FT=
+P.2C_Telnet.2C_dan_Rlogin_.2F_Rsh"><span class=3D"tocnumber">1.1</span> <sp=
+an class=3D"toctext">Jangan gunakan FTP, Telnet, dan Rlogin / Rsh</span></a=
+></li>
+</ul>
+</li>
+<li class=3D"toclevel-1 tocsection-3"><a href=3D"https://lms.onnocenter.or.=
+id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Minimalkan_Softwa=
+re_Aplikasi_untuk_Minimalisasi_Kelemahan"><span class=3D"tocnumber">2</span=
+> <span class=3D"toctext">Minimalkan Software Aplikasi untuk Minimalisasi K=
+elemahan</span></a></li>
+<li class=3D"toclevel-1 tocsection-4"><a href=3D"https://lms.onnocenter.or.=
+id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Satu_layanan_jari=
+ngan_per_sistem_atau_per_VM_Instance"><span class=3D"tocnumber">3</span> <s=
+pan class=3D"toctext">Satu layanan jaringan per sistem atau per VM Instance=
+</span></a></li>
+<li class=3D"toclevel-1 tocsection-5"><a href=3D"https://lms.onnocenter.or.=
+id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Menjaga_Kernel_Li=
+nux_dan_Software_Tetap_Up_to_Date"><span class=3D"tocnumber">4</span> <span=
+ class=3D"toctext">Menjaga Kernel Linux dan Software Tetap Up to Date</span=
+></a></li>
+<li class=3D"toclevel-1 tocsection-6"><a href=3D"https://lms.onnocenter.or.=
+id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Menggunakan_Linux=
+_Security_Extension"><span class=3D"tocnumber">5</span> <span class=3D"toct=
+ext">Menggunakan Linux Security Extension</span></a>
+<ul>
+<li class=3D"toclevel-2 tocsection-7"><a href=3D"https://lms.onnocenter.or.=
+id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#SELinux"><span cl=
+ass=3D"tocnumber">5.1</span> <span class=3D"toctext">SELinux</span></a></li=
+>
+</ul>
+</li>
+<li class=3D"toclevel-1 tocsection-8"><a href=3D"https://lms.onnocenter.or.=
+id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#User_Account_dan_=
+Kebijakan_Password_Kuat"><span class=3D"tocnumber">6</span> <span class=3D"=
+toctext">User Account dan Kebijakan Password Kuat</span></a>
+<ul>
+<li class=3D"toclevel-2 tocsection-9"><a href=3D"https://lms.onnocenter.or.=
+id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Cek_Password_yang=
+_Lemah"><span class=3D"tocnumber">6.1</span> <span class=3D"toctext">Cek Pa=
+ssword yang Lemah</span></a></li>
+<li class=3D"toclevel-2 tocsection-10"><a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Umur_Password"><=
+span class=3D"tocnumber">6.2</span> <span class=3D"toctext">Umur Password</=
+span></a></li>
+<li class=3D"toclevel-2 tocsection-11"><a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Paksa_Ubah_Passw=
+ord"><span class=3D"tocnumber">6.3</span> <span class=3D"toctext">Paksa Uba=
+h Password</span></a></li>
+<li class=3D"toclevel-2 tocsection-12"><a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Pembatasan_Pengg=
+unaan_Password_Lama"><span class=3D"tocnumber">6.4</span> <span class=3D"to=
+ctext">Pembatasan Penggunaan Password Lama</span></a></li>
+<li class=3D"toclevel-2 tocsection-13"><a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Kunci_Account_Us=
+er_setelah_beberapa_kali_gagal_Login"><span class=3D"tocnumber">6.5</span> =
+<span class=3D"toctext">Kunci Account User setelah beberapa kali gagal Logi=
+n</span></a></li>
+<li class=3D"toclevel-2 tocsection-14"><a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Verifikasi_tidak=
+_ada_Account_dengan_password_kosong.3F"><span class=3D"tocnumber">6.6</span=
+> <span class=3D"toctext">Verifikasi tidak ada Account dengan password koso=
+ng?</span></a></li>
+<li class=3D"toclevel-2 tocsection-15"><a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Pastikan_tidak_a=
+da_Account_Non-Root_yang_mempunyai_UID_0"><span class=3D"tocnumber">6.7</sp=
+an> <span class=3D"toctext">Pastikan tidak ada Account Non-Root yang mempun=
+yai UID 0</span></a></li>
+</ul>
+</li>
+<li class=3D"toclevel-1 tocsection-16"><a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Disable_Login_se=
+bagai_root"><span class=3D"tocnumber">7</span> <span class=3D"toctext">Disa=
+ble Login sebagai root</span></a></li>
+<li class=3D"toclevel-1 tocsection-17"><a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Keamanan_Fisik_S=
+erver"><span class=3D"tocnumber">8</span> <span class=3D"toctext">Keamanan =
+Fisik Server</span></a></li>
+<li class=3D"toclevel-1 tocsection-18"><a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Disable_Layanan_=
+Yang_Tidak_Perlu"><span class=3D"tocnumber">9</span> <span class=3D"toctext=
+">Disable Layanan Yang Tidak Perlu</span></a>
+<ul>
+<li class=3D"toclevel-2 tocsection-19"><a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Mencari_Port_Net=
+work_yang_Aktif"><span class=3D"tocnumber">9.1</span> <span class=3D"toctex=
+t">Mencari Port Network yang Aktif</span></a>
+<ul>
+<li class=3D"toclevel-3 tocsection-20"><a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Detect_Port_Scan=
+"><span class=3D"tocnumber">9.1.1</span> <span class=3D"toctext">Detect Por=
+t Scan</span></a></li>
+<li class=3D"toclevel-3 tocsection-21"><a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Netstat_untuk_me=
+lihat_serangan"><span class=3D"tocnumber">9.1.2</span> <span class=3D"tocte=
+xt">Netstat untuk melihat serangan</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class=3D"toclevel-1 tocsection-22"><a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Hapus_X_Windows"=
+><span class=3D"tocnumber">10</span> <span class=3D"toctext">Hapus X Window=
+s</span></a>
+<ul>
+<li class=3D"toclevel-2 tocsection-23"><a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Pengaturan_Iptab=
+les_dan_TCPWrappers"><span class=3D"tocnumber">10.1</span> <span class=3D"t=
+octext">Pengaturan Iptables dan TCPWrappers</span></a></li>
+</ul>
+</li>
+<li class=3D"toclevel-1 tocsection-24"><a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Linux_Kernel_.2F=
+etc.2Fsysctl.conf_Hardening"><span class=3D"tocnumber">11</span> <span clas=
+s=3D"toctext">Linux Kernel /etc/sysctl.conf Hardening</span></a></li>
+<li class=3D"toclevel-1 tocsection-25"><a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Pisahkan_Partisi=
+_Disk"><span class=3D"tocnumber">12</span> <span class=3D"toctext">Pisahkan=
+ Partisi Disk</span></a>
+<ul>
+<li class=3D"toclevel-2 tocsection-26"><a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Kuota_disk"><spa=
+n class=3D"tocnumber">12.1</span> <span class=3D"toctext">Kuota disk</span>=
+</a></li>
+</ul>
+</li>
+<li class=3D"toclevel-1 tocsection-27"><a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Matikan_IPv6"><s=
+pan class=3D"tocnumber">13</span> <span class=3D"toctext">Matikan IPv6</spa=
+n></a></li>
+<li class=3D"toclevel-1 tocsection-28"><a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Matikan_Binari_d=
+engan_SUID_dan_SGID_Yang_Tidak_Diinginkan"><span class=3D"tocnumber">14</sp=
+an> <span class=3D"toctext">Matikan Binari dengan SUID dan SGID Yang Tidak =
+Diinginkan</span></a>
+<ul>
+<li class=3D"toclevel-2 tocsection-29"><a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#File_yang_World-=
+Writable"><span class=3D"tocnumber">14.1</span> <span class=3D"toctext">Fil=
+e yang World-Writable</span></a></li>
+<li class=3D"toclevel-2 tocsection-30"><a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#File_Noowner"><s=
+pan class=3D"tocnumber">14.2</span> <span class=3D"toctext">File Noowner</s=
+pan></a></li>
+</ul>
+</li>
+<li class=3D"toclevel-1 tocsection-31"><a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Gunakan_Layanan_=
+Authentikasi_Terpusat"><span class=3D"tocnumber">15</span> <span class=3D"t=
+octext">Gunakan Layanan Authentikasi Terpusat</span></a>
+<ul>
+<li class=3D"toclevel-2 tocsection-32"><a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Kerberos"><span =
+class=3D"tocnumber">15.1</span> <span class=3D"toctext">Kerberos</span></a>=
+</li>
+</ul>
+</li>
+<li class=3D"toclevel-1 tocsection-33"><a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Logging_dan_Audi=
+ting"><span class=3D"tocnumber">16</span> <span class=3D"toctext">Logging d=
+an Auditing</span></a>
+<ul>
+<li class=3D"toclevel-2 tocsection-34"><a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Monitor_Message_=
+Log_yang_mencurigakan_menggunakan_Logwatch_.2F_Logcheck"><span class=3D"toc=
+number">16.1</span> <span class=3D"toctext">Monitor Message Log yang mencur=
+igakan menggunakan Logwatch / Logcheck</span></a></li>
+<li class=3D"toclevel-2 tocsection-35"><a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#System_Accountin=
+g_menggunakan_auditd"><span class=3D"tocnumber">16.2</span> <span class=3D"=
+toctext">System Accounting menggunakan auditd</span></a></li>
+</ul>
+</li>
+<li class=3D"toclevel-1 tocsection-36"><a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Secure_OpenSSH_S=
+erver"><span class=3D"tocnumber">17</span> <span class=3D"toctext">Secure O=
+penSSH Server</span></a></li>
+<li class=3D"toclevel-1 tocsection-37"><a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Instalasi_dan_Pe=
+nggunaan_Intrusion_Detection_System"><span class=3D"tocnumber">18</span> <s=
+pan class=3D"toctext">Instalasi dan Penggunaan Intrusion Detection System</=
+span></a></li>
+<li class=3D"toclevel-1 tocsection-38"><a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Protecting_Files=
+.2C_Directories_and_Email"><span class=3D"tocnumber">19</span> <span class=
+=3D"toctext">Protecting Files, Directories and Email</span></a>
+<ul>
+<li class=3D"toclevel-2 tocsection-39"><a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Mengamankan_Emai=
+l_Server"><span class=3D"tocnumber">19.1</span> <span class=3D"toctext">Men=
+gamankan Email Server</span></a>
+<ul>
+<li class=3D"toclevel-3 tocsection-40"><a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Rekomendasi_Lain=
+nya:"><span class=3D"tocnumber">19.1.1</span> <span class=3D"toctext">Rekom=
+endasi Lainnya:</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class=3D"toclevel-1 tocsection-41"><a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Bacaan_Rekomenda=
+si"><span class=3D"tocnumber">20</span> <span class=3D"toctext">Bacaan Reko=
+mendasi</span></a></li>
+<li class=3D"toclevel-1 tocsection-42"><a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Referensi"><span=
+ class=3D"tocnumber">21</span> <span class=3D"toctext">Referensi</span></a>=
+</li>
+<li class=3D"toclevel-1 tocsection-43"><a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php/20_Linux_Server_Hardening_Security_Tips#Pranala_Menarik"=
+><span class=3D"tocnumber">22</span> <span class=3D"toctext">Pranala Menari=
+k</span></a></li>
+</ul>
+</div>
+
+<h2><span class=3D"mw-headline" id=3D"Enkripsi_Komunikasi_Data">Enkripsi Ko=
+munikasi Data</span></h2>
+<p>Semua data yang di kirimkan melalui jaringan akan terbuka untuk di monit=
+oring. Enkrip data yang dikirim sebisa mungkin dengan <a href=3D"https://lm=
+s.onnocenter.or.id/wiki/index.php/Password" title=3D"Password">password</a>=
+ atau menggunakan kunci / key / sertifikat.
+</p>
+<ol><li> Gunakan <a href=3D"https://lms.onnocenter.or.id/wiki/index.php/Scp=
+" title=3D"Scp">scp</a>, <a href=3D"https://lms.onnocenter.or.id/wiki/index=
+.php/Ssh" title=3D"Ssh">ssh</a>, <a href=3D"https://lms.onnocenter.or.id/wi=
+ki/index.php/Rsync" title=3D"Rsync">rsync</a>, atau <a href=3D"https://lms.=
+onnocenter.or.id/wiki/index.php?title=3DSftp&amp;action=3Dedit&amp;redlink=
+=3D1" class=3D"new" title=3D"Sftp (page does not exist)">sftp</a> untuk mel=
+akukan file transfer. Kita juga dapat me-mount file system di remote server=
+ atau home directory kita menggunakan <a href=3D"https://lms.onnocenter.or.=
+id/wiki/index.php?title=3DSshfs&amp;action=3Dedit&amp;redlink=3D1" class=3D=
+"new" title=3D"Sshfs (page does not exist)">sshfs</a> dan <a href=3D"https:=
+//lms.onnocenter.or.id/wiki/index.php?title=3DFuse&amp;action=3Dedit&amp;re=
+dlink=3D1" class=3D"new" title=3D"Fuse (page does not exist)">fuse</a> tool=
+.</li>
+<li> <a href=3D"https://lms.onnocenter.or.id/wiki/index.php/GnuPG" title=3D=
+"GnuPG" class=3D"mw-redirect">GnuPG</a> memungkinkan kita untuk mengenkrip =
+dan sign komunikasi data yang kita lakukan. <a href=3D"https://lms.onnocent=
+er.or.id/wiki/index.php/GnuPG" title=3D"GnuPG" class=3D"mw-redirect">GnuPG<=
+/a> juga mempunyai sistem manajemen key yang baik dan akses ke berbagai dir=
+ectory public key.</li>
+<li> <a href=3D"https://lms.onnocenter.or.id/wiki/index.php?title=3DFugu&am=
+p;action=3Dedit&amp;redlink=3D1" class=3D"new" title=3D"Fugu (page does not=
+ exist)">Fugu</a> adalah tampilan grafis dari aplikasi commandline <a href=
+=3D"https://lms.onnocenter.or.id/wiki/index.php?title=3DSecure_File_Transfe=
+r&amp;action=3Dedit&amp;redlink=3D1" class=3D"new" title=3D"Secure File Tra=
+nsfer (page does not exist)">Secure File Transfer</a> (<a href=3D"https://l=
+ms.onnocenter.or.id/wiki/index.php/SFTP" title=3D"SFTP">SFTP</a>). <a href=
+=3D"https://lms.onnocenter.or.id/wiki/index.php/SFTP" title=3D"SFTP">SFTP</=
+a> mirip dengan <a href=3D"https://lms.onnocenter.or.id/wiki/index.php/FTP"=
+ title=3D"FTP">FTP</a>, tapi tidak sama dengan <a href=3D"https://lms.onnoc=
+enter.or.id/wiki/index.php/FTP" title=3D"FTP">FTP</a> karena semua sesi kom=
+unikasi di enkrip. Artinya lebih sukar untuk di tembus oleh pihak ketiga. A=
+plikasi yang lain adalah <a href=3D"https://lms.onnocenter.or.id/wiki/index=
+.php?title=3DFileZilla&amp;action=3Dedit&amp;redlink=3D1" class=3D"new" tit=
+le=3D"FileZilla (page does not exist)">FileZilla</a> - sebuah client cross-=
+platform yang mendukung <a href=3D"https://lms.onnocenter.or.id/wiki/index.=
+php/FTP" title=3D"FTP">FTP</a>, FTP over SSL/TLS (<a href=3D"https://lms.on=
+nocenter.or.id/wiki/index.php?title=3DFTPS&amp;action=3Dedit&amp;redlink=3D=
+1" class=3D"new" title=3D"FTPS (page does not exist)">FTPS</a>), dan <a hre=
+f=3D"https://lms.onnocenter.or.id/wiki/index.php/SSH" title=3D"SSH" class=
+=3D"mw-redirect">SSH</a> File Transfer Protocol (<a href=3D"https://lms.onn=
+ocenter.or.id/wiki/index.php/SFTP" title=3D"SFTP">SFTP</a>).</li>
+<li> <a href=3D"https://lms.onnocenter.or.id/wiki/index.php/OpenVPN" title=
+=3D"OpenVPN">OpenVPN</a> adalah solusi cost-effective, dan ringan untuk SSL=
+ VPN.</li>
+<li> <a href=3D"https://lms.onnocenter.or.id/wiki/index.php?title=3DLighttp=
+d_SSL&amp;action=3Dedit&amp;redlink=3D1" class=3D"new" title=3D"Lighttpd SS=
+L (page does not exist)">Lighttpd SSL</a> (<a href=3D"https://lms.onnocente=
+r.or.id/wiki/index.php?title=3DSecure_Server_Layer&amp;action=3Dedit&amp;re=
+dlink=3D1" class=3D"new" title=3D"Secure Server Layer (page does not exist)=
+">Secure Server Layer</a>) konfigurasi dan instalasi https</li>
+<li> <a href=3D"https://lms.onnocenter.or.id/wiki/index.php?title=3DApache_=
+SSL&amp;action=3Dedit&amp;redlink=3D1" class=3D"new" title=3D"Apache SSL (p=
+age does not exist)">Apache SSL</a> (<a href=3D"https://lms.onnocenter.or.i=
+d/wiki/index.php?title=3DSecure_Server_Layer&amp;action=3Dedit&amp;redlink=
+=3D1" class=3D"new" title=3D"Secure Server Layer (page does not exist)">Sec=
+ure Server Layer</a>) konfigurasi dan instalasi https (mod_ssl)</li></ol>
+<h3><span class=3D"mw-headline" id=3D"Jangan_gunakan_FTP.2C_Telnet.2C_dan_R=
+login_.2F_Rsh">Jangan gunakan <a href=3D"https://lms.onnocenter.or.id/wiki/=
+index.php/FTP" title=3D"FTP">FTP</a>, <a href=3D"https://lms.onnocenter.or.=
+id/wiki/index.php/Telnet" title=3D"Telnet">Telnet</a>, dan <a href=3D"https=
+://lms.onnocenter.or.id/wiki/index.php?title=3DRlogin&amp;action=3Dedit&amp=
+;redlink=3D1" class=3D"new" title=3D"Rlogin (page does not exist)">Rlogin</=
+a> / <a href=3D"https://lms.onnocenter.or.id/wiki/index.php?title=3DRsh&amp=
+;action=3Dedit&amp;redlink=3D1" class=3D"new" title=3D"Rsh (page does not e=
+xist)">Rsh</a></span></h3>
+<p>Dalam kondisi jaringan yang normal, maka <a href=3D"https://lms.onnocent=
+er.or.id/wiki/index.php?title=3DUsername&amp;action=3Dedit&amp;redlink=3D1"=
+ class=3D"new" title=3D"Username (page does not exist)">username</a>, <a hr=
+ef=3D"https://lms.onnocenter.or.id/wiki/index.php/Password" title=3D"Passwo=
+rd">password</a>, dari perintah <a href=3D"https://lms.onnocenter.or.id/wik=
+i/index.php/FTP" title=3D"FTP">FTP</a> / <a href=3D"https://lms.onnocenter.=
+or.id/wiki/index.php/Telnet" title=3D"Telnet">telnet</a> / <a href=3D"https=
+://lms.onnocenter.or.id/wiki/index.php?title=3DRsh&amp;action=3Dedit&amp;re=
+dlink=3D1" class=3D"new" title=3D"Rsh (page does not exist)">rsh</a> dan pr=
+oses transfer file akan dengan mudah di tangkap oleh mereka yang berada di =
+jaringan yang sama mengunakan <a href=3D"https://lms.onnocenter.or.id/wiki/=
+index.php/Sniffer" title=3D"Sniffer">sniffer</a>. Solusi untuk hal ini dapa=
+t menggunakan <a href=3D"https://lms.onnocenter.or.id/wiki/index.php?title=
+=3DOpenSSH&amp;action=3Dedit&amp;redlink=3D1" class=3D"new" title=3D"OpenSS=
+H (page does not exist)">OpenSSH</a> , <a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php/SFTP" title=3D"SFTP">SFTP</a>, atau <a href=3D"https://l=
+ms.onnocenter.or.id/wiki/index.php?title=3DFTPS&amp;action=3Dedit&amp;redli=
+nk=3D1" class=3D"new" title=3D"FTPS (page does not exist)">FTPS</a> (<a hre=
+f=3D"https://lms.onnocenter.or.id/wiki/index.php?title=3DFTP_over_SSL&amp;a=
+ction=3Dedit&amp;redlink=3D1" class=3D"new" title=3D"FTP over SSL (page doe=
+s not exist)">FTP over SSL</a>), yang menambahkan enkripsi SSL atau TLS ke =
+FTP. di turunan RedHat kita dapat menulis perintah berikut untuk membuang p=
+erintah NIS, rsh dan berbagai layanan yang kadaluarsa lainnya:
+</p>
+<pre># yum erase inetd xinetd ypserv tftp-server telnet-server rsh-serve
+</pre>
+<h2><span class=3D"mw-headline" id=3D"Minimalkan_Software_Aplikasi_untuk_Mi=
+nimalisasi_Kelemahan">Minimalkan Software Aplikasi untuk Minimalisasi Kelem=
+ahan</span></h2>
+<p>Apakah kita membutuhkan berbagai layanan terinstalasi? Hindari instalasi=
+ software yang tidak dibutuhkan untuk menghindari kelemahan di software. Gu=
+nakan RPM package manager seperti yum atau apt-get dan / atau dpkg untuk me=
+lihat semua software yang terinstalasi di sistem. Delete paket yang tidak d=
+i inginkan.
+</p>
+<pre># yum list installed
+# yum list packageName
+# yum remove packageName
+</pre>
+<p>atau
+</p>
+<pre># dpkg --list
+# dpkg --info packageName
+# apt-get remove packageName
+</pre>
+<h2><span class=3D"mw-headline" id=3D"Satu_layanan_jaringan_per_sistem_atau=
+_per_VM_Instance">Satu layanan jaringan per sistem atau per VM Instance</sp=
+an></h2>
+<p>Jalankan layanan jaringan yang berbeda di server atau VM instance yang t=
+erpisah. Hal ini membatasi jumlah layanan yang dapat di jebol. Untuk member=
+ikan bayangan, jika semua layanan di pasang dalam satu server atau VM insta=
+nce, maka jika seorang penyerang berhasil mengexploit sebuah software seper=
+ti Apache flow, dia akan memperoleh akses ke seluruh server termasuk layana=
+n sepertu <a href=3D"https://lms.onnocenter.or.id/wiki/index.php/MySQL" tit=
+le=3D"MySQL">MySQL</a>, <a href=3D"https://lms.onnocenter.or.id/wiki/index.=
+php/E-mail" title=3D"E-mail" class=3D"mw-redirect">e-mail</a> server dan ma=
+sih banyak lagi. Lihat bagaimana cara menginstalasi software virtualisasi:
+</p>
+<ul><li> Install dan Setup Software Xen Virtualization pada Linux CentOS 5<=
+/li>
+<li> Bagaimana Cara Setup OpenVZ pada RHEL / Linux CentOS</li></ul>
+<h2><span class=3D"mw-headline" id=3D"Menjaga_Kernel_Linux_dan_Software_Tet=
+ap_Up_to_Date">Menjaga Kernel Linux dan Software Tetap Up to Date</span></h=
+2>
+<p>Menerapkan patch keamanan merupakan bagian penting dari menjaga server L=
+inux. Linux menyediakan semua alat yang diperlukan untuk menjaga sistem and=
+a diperbarui, dan juga memungkinkan untuk upgrade antar versi dengan mudah.=
+ Semua pembaruan keamanan harus ditinjau ulang dan diterapkan sesegera mung=
+kin. Sekali lagi, gunakan manajer paket RPM seperti <a href=3D"https://lms.=
+onnocenter.or.id/wiki/index.php?title=3DYum&amp;action=3Dedit&amp;redlink=
+=3D1" class=3D"new" title=3D"Yum (page does not exist)">yum</a> dan atau <a=
+ href=3D"https://lms.onnocenter.or.id/wiki/index.php?title=3DApt-get&amp;ac=
+tion=3Dedit&amp;redlink=3D1" class=3D"new" title=3D"Apt-get (page does not =
+exist)">apt-get</a> dan atau <a href=3D"https://lms.onnocenter.or.id/wiki/i=
+ndex.php?title=3DDpkg&amp;action=3Dedit&amp;redlink=3D1" class=3D"new" titl=
+e=3D"Dpkg (page does not exist)">dpkg</a> untuk menerapkan semua update kea=
+manan.
+</p>
+<pre># yum update
+</pre>
+<p>atau
+</p>
+<pre># apt-get update &amp;&amp; apt-get upgrade
+</pre>
+<p>Anda dapat mengkonfigurasi <a href=3D"https://lms.onnocenter.or.id/wiki/=
+index.php/Red_Hat" title=3D"Red Hat">Red Hat</a> / <a href=3D"https://lms.o=
+nnocenter.or.id/wiki/index.php?title=3DCentOS&amp;action=3Dedit&amp;redlink=
+=3D1" class=3D"new" title=3D"CentOS (page does not exist)">CentOS</a> / <a =
+href=3D"https://lms.onnocenter.or.id/wiki/index.php/Fedora" title=3D"Fedora=
+">Fedora</a> Linux untuk mengirim notifikasi update paket yum update email.=
+ Pilihan lain adalah dengan menggunakan semua update keamanan melalui <a hr=
+ef=3D"https://lms.onnocenter.or.id/wiki/index.php?title=3DCron_job&amp;acti=
+on=3Dedit&amp;redlink=3D1" class=3D"new" title=3D"Cron job (page does not e=
+xist)">cron job</a>. Dalam Debian / Ubuntu Linux Anda dapat menggunakan <a =
+href=3D"https://lms.onnocenter.or.id/wiki/index.php?title=3DApticron&amp;ac=
+tion=3Dedit&amp;redlink=3D1" class=3D"new" title=3D"Apticron (page does not=
+ exist)">apticron</a> untuk mengirim notifikasi keamanan.
+</p>
+<h2><span class=3D"mw-headline" id=3D"Menggunakan_Linux_Security_Extension"=
+>Menggunakan Linux Security Extension</span></h2>
+<p>Linux hadir dengan berbagai patch keamanan yang dapat digunakan untuk me=
+njaga terhadap program yang salah konfigurasi atau yang diambil alih pihak =
+lain. Jika memungkinkan menggunakan <a href=3D"https://lms.onnocenter.or.id=
+/wiki/index.php?title=3DSELinux&amp;action=3Dedit&amp;redlink=3D1" class=3D=
+"new" title=3D"SELinux (page does not exist)">SELinux</a> dan ekstensi keam=
+anan Linux lainnya untuk melakukan pembatasan pada jaringan dan program lai=
+nnya. Sebagai contoh, SELinux menyediakan berbagai kebijakan keamanan untuk=
+ kernel Linux.
+</p>
+<h3><span class=3D"mw-headline" id=3D"SELinux">SELinux</span></h3>
+<p>Saya sangat menyarankan menggunakan <a href=3D"https://lms.onnocenter.or=
+.id/wiki/index.php?title=3DSELinux&amp;action=3Dedit&amp;redlink=3D1" class=
+=3D"new" title=3D"SELinux (page does not exist)">SELinux</a> yang menyediak=
+an sebuah <a href=3D"https://lms.onnocenter.or.id/wiki/index.php?title=3DMa=
+ndatory_Access_Control&amp;action=3Dedit&amp;redlink=3D1" class=3D"new" tit=
+le=3D"Mandatory Access Control (page does not exist)">Mandatory Access Cont=
+rol</a> (MAC) yang fleksibel. Berdasarkan standar <a href=3D"https://lms.on=
+nocenter.or.id/wiki/index.php?title=3DLinux_Discretionary_Access_Control&am=
+p;action=3Dedit&amp;redlink=3D1" class=3D"new" title=3D"Linux Discretionary=
+ Access Control (page does not exist)">Linux Discretionary Access Control</=
+a> (DAC), sebuah aplikasi atau proses yang berjalan sebagai user (UID atau =
+SUID) memiliki izin pengguna untuk objek seperti file, socket dan proses la=
+innya. Menjalankan sebuah kernel MAC melindungi sistem dari aplikasi berbah=
+aya atau cacat yang dapat merusak atau menghancurkan sistem. Lihat dokument=
+asi Redhat resmi yang menjelaskan konfigurasi SELinux.
+</p>
+<h2><span class=3D"mw-headline" id=3D"User_Account_dan_Kebijakan_Password_K=
+uat">User Account dan Kebijakan Password Kuat</span></h2>
+<p>Gunakan perintah useradd/usermod untuk membuat dan memelihara account pe=
+ngguna. Pastikan Anda memiliki kebijakan password yang baik dan kuat. Sebag=
+ai contoh, password yang baik mencakup minimal 8 karakter dan campuran huru=
+f, angka, karakter khusus, huruf besar, huruf kecil, dan lain-lain. Yang pa=
+ling penting adalah memilih password yang bisa Anda ingat. Gunakan tool sep=
+erti "ripper John" (di Kali Linux menggunakan perintah john) untuk mengetah=
+ui password yang lemah dari pengguna pada server anda.
+</p><p>Install dan konfigurasi libpam-cracklib untuk menegakkan kebijakan p=
+assword. Instalasi di Ubuntu, dapat menggunakan perintah,
+</p>
+<pre>apt-get install libpam-cracklib
+</pre>
+<p>Edit konfigurasi,
+</p>
+<pre>vi /etc/pam.d/common-password
+</pre>
+<p>Tambahkan, misalnya,
+</p>
+<pre>password required pam_cracklib.so retry=3D2 minlen=3D10 difok=3D6
+</pre>
+<p><br>
+</p>
+<h3><span class=3D"mw-headline" id=3D"Cek_Password_yang_Lemah">Cek Password=
+ yang Lemah</span></h3>
+<p>Untuk mencek password yang lemah, pada dasarnya kita meng-crack password=
+ menggunakan tool seperti john di Kali Linux. Cara yang bisa dilakukan adal=
+ah,
+</p><p>Copy (bisa dengan scp) 2 file ini dari server =20
+</p>
+<pre>/etc/passwd
+/etc/shadow
+</pre>
+<p>Ke komputer Kali Linux, dan lakukan
+</p>
+<pre>unshadow passwd shadow &gt; unshadowed.txt
+john --wordlist=3D/usr/share/john/password.lst --rules unshadowed.txt
+</pre>
+<h3><span class=3D"mw-headline" id=3D"Umur_Password">Umur Password</span></=
+h3>
+<p>Perintah change mengubah jumlah hari antara perubahan password dan tangg=
+al perubahan password terakhir. Informasi ini digunakan oleh sistem untuk m=
+enentukan kapan seorang pengguna harus mengubah passwordnya. File /etc/logi=
+n.defs mendefinisikan konfigurasi situs-khusus untuk deretan shadow passwor=
+d termasuk konfigurasi umur password. Untuk menonaktifkan fitur umur passwo=
+rd, masukkan:
+</p>
+<pre>chage -M 99999 userName
+</pre>
+<p>Untuk men-set X hari, masukan
+</p>
+<pre>chage -M X userName
+</pre>
+<p>Untuk mendapatkan informasi password yang telah kadaluarsa, masukkan:
+</p>
+<pre>chage -l userName
+</pre>
+<p>Akhirnya, Anda juga dapat mengedit /etc/shadow seperti berikut:
+</p>
+<pre>{userName}:{password}:{lastpasswdchanged}:{Minimum_days}:{Maximum_days=
+}:{Warn}:{Inactive}:{Expire}:
+</pre>
+<p>Dimana,
+</p>
+<ol><li> Minimum_days: Jumlah minimum dari hari yang diperlukan antara peru=
+bahan password, yaitu jumlah hari yang tersisa sebelum pengguna diijinkan m=
+engubah passwordnya.</li>
+<li> Maximum_days: Jumlah maksimum hari password berlaku (setelah itu pengg=
+una akan dipaksa untuk mengubah passwordnya).</li>
+<li> Warn&nbsp;: Jumlah hari sebelum password akan berakhir, pengguna akan =
+diperingatkan bahwa passwordnya harus diubah.</li>
+<li> Expire&nbsp;: Tanggal mutlak saat login tidak mungkin lagi dapat dilak=
+ukan.</li></ol>
+<p>Sebaiknya untuk tidak mengedit /etc/shadow secara langsung:
+</p>
+<pre># chage -M 60 -m 7 -W 7 userName
+</pre>
+<p>Rekomendasi Bacaan:
+</p>
+<ul><li> Linux: Force Users To Change Their Passwords Upon First Login</li>
+<li> Linux turn On / Off password expiration / aging</li>
+<li> Lock the user password</li>
+<li> Search for all account without password and lock them</li>
+<li> Use Linux groups to enhance security</li></ul>
+<h3><span class=3D"mw-headline" id=3D"Paksa_Ubah_Password">Paksa Ubah Passw=
+ord</span></h3>
+<p>Untuk memaksa mengubah password saat login pertama kali
+</p>
+<pre>chage -d 0 &lt;username&gt;
+</pre>
+<h3><span class=3D"mw-headline" id=3D"Pembatasan_Penggunaan_Password_Lama">=
+Pembatasan Penggunaan Password Lama</span></h3>
+<p>Anda dapat menghalangi / membatasi pengguna dalam menggunakan atau menda=
+ur ulang password lama menggunakan Linux. Parameter modul pam_unix dapat di=
+konfigurasi untuk mengingat password terdahulu yang tidak dapat digunakan k=
+embali.
+</p><p>Di Ubuntu edit,
+</p>
+<pre>vi /etc/pam.d/common-password
+</pre>
+<p>Tambahkan
+</p>
+<pre>password sufficient pam_unix.so use_authtok md5 shadow remember=3D13
+</pre>
+<p>atau
+</p>
+<pre>password sufficient pam_unix2.so use_authtok md5 shadow remember=3D13
+</pre>
+<h3><span class=3D"mw-headline" id=3D"Kunci_Account_User_setelah_beberapa_k=
+ali_gagal_Login">Kunci Account User setelah beberapa kali gagal Login</span=
+></h3>
+<p>Di Linux kita dapat menggunakan perintah faillog untuk memperlihatkan ca=
+tatan faillog atau untuk menset batas kegagalan login. faillog akan mem-for=
+mat tampilan / content dari catatan log dari <a href=3D"https://lms.onnocen=
+ter.or.id/wiki/index.php/Database" title=3D"Database">database</a> / log fi=
+le /var/log/faillog. Dia juga dapat digunakan untuk menghitung dan membatas=
+i kegagalan login. Untuk melihat percobaan login yang gagal, tulis:
+</p>
+<pre>faillog
+</pre>
+<p>atau lihat
+</p>
+<pre>/var/log/auth.log
+</pre>
+<p>Install dan konfigurasi libpam-cracklib untuk menegakkan kebijakan passw=
+ord. Mengaktifkan faillog di Ubuntu, edit
+</p>
+<pre>vi /etc/pam.d/common-auth
+</pre>
+<p>Masukan di paling atas
+</p>
+<pre>auth required pam_tally.so no_magic_root
+account required pam_tally.so deny=3D3 no_magic_root lock_time=3D300
+</pre>
+<p>Untuk mengunci sebuah account setelah gagal login, jalankan:
+</p>
+<pre>faillog -r -u userName
+</pre>
+<p>Kita dapat menggunakan perintah passwd untuk mengunci dan membuka kunci =
+sebuah account:
+</p>
+<pre># kunci account
+passwd -l userName
+</pre>
+<pre># membuka kunci account
+passwd -u userName
+</pre>
+<h3><span class=3D"mw-headline" id=3D"Verifikasi_tidak_ada_Account_dengan_p=
+assword_kosong.3F">Verifikasi tidak ada Account dengan password kosong?</sp=
+an></h3>
+<p>Untuk mem-verifikasi agar tidak ada Account dengan password kosong dapat=
+ dilakukan dengan ketik perintah berikut
+</p>
+<pre># awk -F: '($2 =3D=3D "") {print}' /etc/shadow
+</pre>
+<p>Selanjutnya, kita bisa mengunci account dengan <a href=3D"https://lms.on=
+nocenter.or.id/wiki/index.php/Password" title=3D"Password">password</a> kos=
+ong:
+</p>
+<pre># passwd -l accountName
+</pre>
+<h3><span class=3D"mw-headline" id=3D"Pastikan_tidak_ada_Account_Non-Root_y=
+ang_mempunyai_UID_0">Pastikan tidak ada Account Non-Root yang mempunyai UID=
+ 0</span></h3>
+<p>Hanya account root yang mempunyai UID 0 dengan ijin penuh untuk mengakse=
+s system. Tuliskan perintah berikut untuk menampilkan semua account dengan =
+UID yang di set 0:
+</p>
+<pre># awk -F: '($3 =3D=3D "0") {print}' /etc/passwd
+</pre>
+<p>Anda harusnya hanya melihat satu kalimat ini
+</p>
+<pre>root:x:0:0:root:/root:/bin/bash
+</pre>
+<p>Jika anda melihat kalimat yang lain, buang atau pastikan account tersebu=
+t memang di ijinkan untuk menggunakan UID 0.
+</p>
+<h2><span class=3D"mw-headline" id=3D"Disable_Login_sebagai_root">Disable L=
+ogin sebagai root</span></h2>
+<p>Jangan pernah remote login sebagai user root. Anda sebaiknya menggunakan=
+ sudo untuk menjalankan perintah level root jika diperlukan. sudo ini dapat=
+ meningkatkan keamanan sistem tanpa berbagi password root dengan pengguna l=
+ainnya dan admin. Perintah sudo juga menyediakan audit sederhana dan fitur =
+pelacakan.
+</p><p>Disable remote login root, dengan edit
+</p>
+<pre>vi /etc/ssh/sshd_config
+</pre>
+<p>Pastikan
+</p>
+<pre>PermitRootLogin prohibit-password
+StrictModes yes
+</pre>
+<p>atau yang lebih ketat,
+</p>
+<pre>PermitRootLogin no
+</pre>
+<h2><span class=3D"mw-headline" id=3D"Keamanan_Fisik_Server">Keamanan Fisik=
+ Server</span></h2>
+<p>Anda harus melindungi akses terhadap server Linux secara fisik. Lakukan =
+konfigurasi pada BIOS seperti menonaktifkan boot dari perangkat eksternal s=
+eperti DVD/CD/USB. Anda juga dapat menambahkan password pada grub boot load=
+er untuk memperketat akses terhadap server Linux. Anda juga disarankau untu=
+k menyimpan Data penting yang terkait dengan produksi harus terkunci di IDC=
+s (Internet Data Center) dan semua orang harus melewati semacam pemeriksaan=
+ keamanan sebelum mengakses server Anda. Lihat juga:
+</p>
+<ul><li> 9 Tips Untuk Melindungi akses terhadap server Linux secara Fisik.<=
+/li></ul>
+<h2><span class=3D"mw-headline" id=3D"Disable_Layanan_Yang_Tidak_Perlu">Dis=
+able Layanan Yang Tidak Perlu</span></h2>
+<p>Agar server aman, kita perlu me-nonaktif-kan semua layanan yang tidak pe=
+rlu dan daemon (layanan yang berjalan di latar belakang). Kita harus mengha=
+pus semua layanan yang tidak perlu dari sistem start-up. Ketikkan perintah =
+berikut untuk melihat daftar semua layanan yang dihidupkan secara otomatis =
+pada saat boot di runlevel #3:
+</p>
+<pre>chkconfig --list | grep '3:on'
+</pre>
+<p>Untuk mematikan layanan dan disable saat boot, masukkan:
+</p>
+<pre>service serviceName stop
+chkconfig serviceName off
+</pre>
+<p>Di Ubuntu, agak berbeda dengan RedHat, untuk melihat servis yang enabled=
+ (runlevel #3 on) bisa menggunakan
+</p>
+<pre>systemctl list-unit-files -t service | grep enabled
+systemctl list-unit-files --type=3Dservice | grep enabled
+</pre>
+<p><br>
+Untuk mematikan / disable saat boot, bisa ketik
+</p>
+<pre>systemctl disable serviceName
+</pre>
+<p>List Perbandingan Perintah chkconfig vs. systemctl
+</p><p><br>
+</p>
+<table border=3D"1" cellpadding=3D"2" style=3D"border-collapse: collapse">
+<tbody><tr>
+<th> SysVinit
+</th>
+<th> systemd
+</th></tr>
+<tr>
+<td> service example start
+</td>
+<td> systemctl start example
+</td></tr>
+<tr>
+<td> service example stop
+</td>
+<td> systemctl stop example
+</td></tr>
+<tr>
+<td> service example restart
+</td>
+<td> systemctl restart example
+</td></tr>
+<tr>
+<td> service example reload
+</td>
+<td> systemctl reload example
+</td></tr>
+<tr>
+<td> service example condrestart
+</td>
+<td> systemctl condrestart example
+</td></tr>
+<tr>
+<td> service example status
+</td>
+<td> systemctl status example
+</td></tr>
+<tr>
+<td> chkconfig example on
+</td>
+<td> systemctl enable example
+</td></tr>
+<tr>
+<td> chkconfig example off
+</td>
+<td> systemctl disable example
+</td></tr>
+<tr>
+<td> chkconfig example --list
+</td>
+<td> systemctl is-enabled example
+</td></tr>
+<tr>
+<td> chkconfig
+</td>
+<td> systemctl list-unit-files --type=3Dservice
+</td></tr>
+<tr>
+<td> chkconfig example --add
+</td>
+<td> systemctl daemon-reload
+</td></tr></tbody></table>
+<p><br>
+</p>
+<h3><span class=3D"mw-headline" id=3D"Mencari_Port_Network_yang_Aktif">Menc=
+ari Port Network yang Aktif</span></h3>
+<p>Gunakan perintah berikut untuk melihat port yang terbuka dan program yan=
+g berasosiasi dengan port tersebut:
+</p>
+<pre>netstat -tulpn
+</pre>
+<p>atau
+</p>
+<pre>nmap -sT -O localhost
+nmap -sT -O server.example.com
+</pre>
+<p>Gunakan iptables untuk menutup port tersebut atau matikan layanan jaring=
+an yang tidak di inginkan dan gunakan perintah systemctl.
+</p>
+<h4><span class=3D"mw-headline" id=3D"Detect_Port_Scan">Detect Port Scan</s=
+pan></h4>
+<p>Install
+</p>
+<pre>sudo apt-get install psad
+</pre>
+<p>Edit
+</p>
+<pre>vi /etc/syslog.conf
+</pre>
+<pre>kern.info       |/var/lib/psad/psadfifo
+</pre>
+<p><br>
+Restart
+</p>
+<pre>/etc/init.d/sysklogd restart
+/etc/init.d/klogd
+</pre>
+<p>Edit
+</p>
+<pre>vi /etc/psad/psad.conf
+</pre>
+<pre>EMAIL_ADDRESSES             vivek@nixcraft.in;
+HOSTNAME                    server.nixcraft.in;
+HOME_NET                    NOT_USED;  ### only one interface on box
+IGNORE_PORTS                udp/53, udp/5000;
+ENABLE_AUTO_IDS             Y;
+IPTABLES_BLOCK_METHOD       Y;
+</pre>
+<p>Restart
+</p>
+<pre>/etc/init.d/psad restart
+</pre>
+<p><br>
+Modif iptables
+</p>
+<pre>iptables -A INPUT -j LOG
+iptables -A FORWARD -j LOG
+</pre>
+<p>Report
+</p>
+<pre>psad -S
+</pre>
+<p>Detail iptables ada di
+<a rel=3D"nofollow" class=3D"external free" href=3D"https://www.cyberciti.b=
+iz/faq/linux-detect-port-scan-attacks/">https://www.cyberciti.biz/faq/linux=
+-detect-port-scan-attacks/</a>
+</p>
+<h4><span class=3D"mw-headline" id=3D"Netstat_untuk_melihat_serangan">Netst=
+at untuk melihat serangan</span></h4>
+<ul><li> <a href=3D"https://lms.onnocenter.or.id/wiki/index.php/Netstat:_me=
+lihat_serangan_dari_netstat" title=3D"Netstat: melihat serangan dari netsta=
+t">Netstat: melihat serangan dari netstat</a></li></ul>
+<h2><span class=3D"mw-headline" id=3D"Hapus_X_Windows">Hapus X Windows</spa=
+n></h2>
+<p>X windows pada server tidak diperlukan. Tidak ada alasan untuk menjalank=
+an X Windows pada server khusus mail dan server web Apache. Anda dapat meno=
+naktifkan dan menghapus X Windows untuk meningkatkan keamanan server dan ki=
+nerja. Edit /etc/inittab dan ubah runlevel ke 3. Akhirnya, untuk menghapus =
+sistem X Windows, masukkan:
+</p>
+<pre># yum groupremove "X Window System"
+</pre>
+<h3><span class=3D"mw-headline" id=3D"Pengaturan_Iptables_dan_TCPWrappers">=
+Pengaturan Iptables dan TCPWrappers</span></h3>
+<p>Iptables adalah firewall (Netfilter) standar yang disediakan oleh kernel=
+ Linux. Gunakan firewall untuk memfilter lalu lintas dan hanya mengijinkan =
+lalu lintas yang diperlukan. Anda juga dapat menggunakan sistem jaringan TC=
+PWrappers ACL berbasis host untuk menyaring akses jaringan ke Internet. And=
+a dapat mencegah banyak serangan Denial of Service dengan bantuan Iptables:
+</p>
+<ul><li> Lighttpd Traffic Shaping: Katup Koneksi Per IP Single (Batas Rate)=
+.</li>
+<li> How to: Linux Iptables memblokir serangan umum.</li>
+<li> psad: Linux Deteksi Dan Blok serangan Pemindaian terhadap Port secara =
+Real Time.</li></ul>
+<h2><span class=3D"mw-headline" id=3D"Linux_Kernel_.2Fetc.2Fsysctl.conf_Har=
+dening">Linux Kernel /etc/sysctl.conf Hardening</span></h2>
+<p>/etc/sysctl.conf adalah file yang digunakan untuk mengkonfigurasi parame=
+ter kernel pada saat runtime. Linux membaca dan menerapkan pengaturan dari =
+/etc/sysctl.conf pada saat boot. Contoh penguatan konfigurasi pada /etc/sys=
+ctl.conf:
+</p>
+<pre># Turn on execshield
+kernel.exec-shield=3D1
+kernel.randomize_va_space=3D1
+# Enable IP spoofing protection
+net.ipv4.conf.all.rp_filter=3D1
+# Disable IP source routing
+net.ipv4.conf.all.accept_source_route=3D0
+# Ignoring broadcasts request
+net.ipv4.icmp_echo_ignore_broadcasts=3D1
+net.ipv4.icmp_ignore_bogus_error_messages=3D1
+# Make sure spoofed packets get logged
+net.ipv4.conf.all.log_martians =3D 1
+</pre>
+<h2><span class=3D"mw-headline" id=3D"Pisahkan_Partisi_Disk">Pisahkan Parti=
+si Disk</span></h2>
+<p>Pisahkan file <a href=3D"https://lms.onnocenter.or.id/wiki/index.php/Sis=
+tem_operasi" title=3D"Sistem operasi">sistem operasi</a> dari file user aga=
+r system lebih baik dan lebih aman. Pastikan file system berikut di mount d=
+i partisi yang berbeda:
+</p>
+<ul><li> /usr</li>
+<li> /home</li>
+<li> /var and /var/tmp</li>
+<li> /tmp</li></ul>
+<p>Buat partis yang beda untuk root dari Apache dan FTP server. Edit file /=
+etc/fstab dan pastikan tambahkan opsi konfigurasi berikut:
+</p>
+<ol><li> noexec - Tidak bisa menjalankan (execute) semua binary di partisi =
+tersebut (binary tidak bisa di exec tapi script di ijinkan).</li>
+<li> nodev - Tidak mengijinkan device character atau device spesial lainnya=
+ di partisi tersebut (device file seperti zero, sda dll tidak dapat digunak=
+an).</li>
+<li> nosuid - Tidak dapat menset akses SUID/SGID di partisi ini (menghalang=
+i setuid bit).</li></ol>
+<p>Contoh isi /etc/fstab untuk membatasi akses user ke /dev/sda5 (ftp serve=
+r root directory):
+</p>
+<pre>/dev/sda5  /ftpdata          ext3    defaults,nosuid,nodev,noexec 1 2
+</pre>
+<h3><span class=3D"mw-headline" id=3D"Kuota_disk">Kuota disk</span></h3>
+<p>Pastikan Kuota Disk diaktifkan untuk semua pengguna. Untuk menerapkan ku=
+ota disk, gunakan langkah-langkah berikut:
+</p>
+<ol><li> Aktifkan kuota per sistem file dengan memodifikasi file /etc/fstab=
+.</li>
+<li> Lakukan remount file system (s).</li>
+<li> Membuat database file kuots dan menghasilkan tabel penggunaan disk.</l=
+i>
+<li> Tetapkan kebijakan kuota.</li>
+<li> Lihat tutorial penerapan kuota disk untuk rincian lebih lanjut.</li></=
+ol>
+<h2><span class=3D"mw-headline" id=3D"Matikan_IPv6">Matikan IPv6</span></h2=
+>
+<p>Internet Protocol version 6 (IPv6) memberikan lapisan Internet baru dari=
+ TCP / IP protocol suite yang menggantikan Internet Protocol version 4 (IPv=
+4) dan memberikan banyak manfaat. Saat ini ada alat yang baik keluar yang d=
+apat memeriksa sistem melalui jaringan untuk masalah keamanan IPv6. Kebanya=
+kan distro Linux mulai memungkinkan protokol IPv6 secara default. Cracker d=
+apat mengirimkan lalu lintas data jahat melalui IPv6 yang tidak termonitor =
+oleh admin. Kecuali konfigurasi jaringan menuntut hal itu, berikut ini adal=
+ah cara untuk menonaktifkan IPv6 atau mengkonfigurasi Linux firewall IPv6:
+</p>
+<ul><li> Mematikan jaringan IPv6 di RedHat / Centos.</li>
+<li> Mematikan jaringan IPv6 di Debian / Ubuntu And Other Linux Distros.</l=
+i>
+<li> Linux IPv6 Howto - Chapter 19. Security.</li>
+<li> konfigurasi Firewall Linux untuk IPv6 beserta script lain yang tersedi=
+a klik di sini.</li></ul>
+<h2><span class=3D"mw-headline" id=3D"Matikan_Binari_dengan_SUID_dan_SGID_Y=
+ang_Tidak_Diinginkan">Matikan Binari dengan SUID dan SGID Yang Tidak Diingi=
+nkan</span></h2>
+<p>Semua bit SUID/SGID yang di enable dapat di salahgunakan saat SUID/SGID =
+executable ada masalah keamanan atau bug. Semua local atau remote user akan=
+ dapat menggunakan file tersebut. Ada baiknya kita mencari semua file terse=
+but, untuk mencarinya dapat menggunakan perintah berikut:
+</p>
+<pre>#See all set user id files:
+find / -perm +4000
+# See all group id files
+find / -perm +2000
+# Or combine both in a single command
+find / \( -perm -4000 -o -perm -2000 \) -print
+find / -path -prune -o -type f -perm +6000 -ls
+</pre>
+<p>Anda perlu melakukan analisa / investigasi pada setiap file yang di lapo=
+rkan. See reported file man page for further details.
+</p><p><br>
+</p>
+<h3><span class=3D"mw-headline" id=3D"File_yang_World-Writable">File yang W=
+orld-Writable</span></h3>
+<p>Semua orang dapat memodifikasi file yang world-writable yang menyebabkan=
+ masalah keamanan. Gunakan perintah berikut untuk menemukan semua file yang=
+ di set world writable dan sticky bits:
+</p>
+<pre>find /dir -xdev -type d \( -perm -0002 -a&nbsp;! -perm -1000 \) -print
+</pre>
+<p>Kita perlu melakukan analisa dari semua file yang di laporkan dan set ij=
+in user dan group yang benar atau bahkan membuang / men-delete-nya sekalian=
+.
+</p>
+<h3><span class=3D"mw-headline" id=3D"File_Noowner">File Noowner</span></h3=
+>
+<p>File yang tidak ada pemiliknya dapat menyebabkan masalah keamanan. Cari =
+file tersebut menggunakan perintah berikut
+</p>
+<pre>find /dir -xdev \( -nouser -o -nogroup \) -print
+find / -xdev \( -nouser -o -nogroup \) -print
+</pre>
+<p>Kita perlu melakukan analisa pada setiap file yang di laporkan dan kita =
+perlu memberikan user &amp; group yang benar atau membuang / men-delete fil=
+e tersebut.
+</p>
+<h2><span class=3D"mw-headline" id=3D"Gunakan_Layanan_Authentikasi_Terpusat=
+">Gunakan Layanan Authentikasi Terpusat</span></h2>
+<p>Tanpa system authentikasi yang terpusat, data user auth menjadi tidak ko=
+nsisten, yang mungkin akan menyebabkan banyak data, credential, account yan=
+g out-of-date tidak ter-delete. Sebuah layanan authentikasi yang terpusat m=
+emungkinkan kita untuk memelihara kontrol terhadap data Linux / UNIX accoun=
+t dan authentikasi. Kita dapat menyimpan data auth yang tersinkonisasi pada=
+ beberapa server. Jangan menggunakan layanan NIS untuk authentikasi yang te=
+rpusat. Gunakan OpenLDAP untuk client dan server.
+</p>
+<h3><span class=3D"mw-headline" id=3D"Kerberos">Kerberos</span></h3>
+<p>Kerberos akan melakukan authentikasi sebagai sebuah layanan authentikasi=
+ pihak ketiga yang dapat di percaya menggunakan cryptographic shared secret=
+ dengan asumsi packet akan berjalan di sebuah jaringan yang tidak aman yang=
+ dapat dibaca, di modifikasi dan di insert / dimasukan. Kerberos dibangun m=
+enggunakan <a href=3D"https://lms.onnocenter.or.id/wiki/index.php?title=3DS=
+ymmetric-key_cryptography&amp;action=3Dedit&amp;redlink=3D1" class=3D"new" =
+title=3D"Symmetric-key cryptography (page does not exist)">symmetric-key cr=
+yptography</a> dan membutuhkan sebuah pusat distribusi kunci (key). Kita da=
+pat membuat remote login, remote copy, copy file inter-system secara aman d=
+an berbagai pekerjaan dengan resiko tinggi secara aman dan banyak lagi yang=
+ dapat di kontrol oleh Kerberos. Oleh karenanya, jika pengguna melakukan au=
+thentikasi untuk layanan jaringan menggunakan Kerberos, maka pengguna yang =
+tidak di undang yang berusaha untuk memperoleh password dengan cara memonit=
+or traffic di jaringan pada dasarnya akan tersingkir dengan sendirinya. See=
+ how to setup and use Kerberos.
+</p>
+<h2><span class=3D"mw-headline" id=3D"Logging_dan_Auditing">Logging dan Aud=
+iting</span></h2>
+<p>Kita perlu mengkonfigurasi logging dan auditing untuk mencatat semua usa=
+ha hacking dan cracking. Secara default syslog akan menyimpan data di direc=
+tory /var/log/. Catatan ini sangat berguna untuk melihat jika ada software =
+yang salah konfigurasi yang menjadikan sistem kita terbuka terhadap seranga=
+n. Ada baiknya melihat artikel yang berkaitan dengan logging berikut:
+</p>
+<ol><li> <a href=3D"https://lms.onnocenter.or.id/wiki/index.php/Linux_log_f=
+ile_locations" title=3D"Linux log file locations">Linux log file locations<=
+/a></li>
+<li> How to send logs to a remote loghost.</li>
+<li> How do I rotate log files?.</li>
+<li> man pages syslogd, syslog.conf and logrotate.</li></ol>
+<h3><span class=3D"mw-headline" id=3D"Monitor_Message_Log_yang_mencurigakan=
+_menggunakan_Logwatch_.2F_Logcheck">Monitor Message Log yang mencurigakan m=
+enggunakan Logwatch / Logcheck</span></h3>
+<p>Membaca log menggunakan logwatch atau logcheck. Install menggunakan peri=
+ntah
+</p>
+<pre>apt-get install logcheck
+apt-get install logwatch
+</pre>
+<p>Dengan tool ini akan membuat pembacaan log menjadi lebih mudah. Kita dap=
+at memperoleh laporan yang lebih detail dari hal yang mencurigakan di syslo=
+g melalui e-mail.
+Menjalankan menggunakan perintah
+</p>
+<pre>sudo -u logcheck logcheck
+</pre>
+<p>Sebuah contoh dari laporan syslog adalah sebagai berikut:
+</p>
+<pre> ################### Logwatch 7.3 (03/24/06) ####################
+        Processing Initiated: Fri Oct 30 04:02:03 2009
+        Date Range Processed: yesterday
+                              ( 2009-Oct-29 )
+                              Period is day.
+      Detail Level of Output: 0
+              Type of Output: unformatted
+           Logfiles for Host: www-52.nixcraft.net.in
+  ################################################################## =20
+
+ --------------------- Named Begin ------------------------=20
+
+ **Unmatched Entries**
+    general: info: zone XXXXXX.com/IN: Transfer started.: 3 Time(s)
+    general: info: zone XXXXXX.com/IN: refresh: retry limit for master tttt=
+ttttttttttttttt#53 exceeded (source&nbsp;::#0): 3 Time(s)
+    general: info: zone XXXXXX.com/IN: Transfer started.: 4 Time(s)
+    general: info: zone XXXXXX.com/IN: refresh: retry limit for master tttt=
+ttttttttttttttt#53 exceeded (source&nbsp;::#0): 4 Time(s)=20
+
+ ---------------------- Named End -------------------------=20
+
+  --------------------- iptables firewall Begin ------------------------=20
+
+ Logged 87 packets on interface eth0
+   From 58.y.xxx.ww - 1 packet to tcp(8080)
+   From 59.www.zzz.yyy - 1 packet to tcp(22)
+   From 60.32.nnn.yyy - 2 packets to tcp(45633)
+   From 222.xxx.ttt.zz - 5 packets to tcp(8000,8080,8800)=20
+
+ ---------------------- iptables firewall End ------------------------- =20
+
+ --------------------- SSHD Begin ------------------------=20
+
+ Users logging in through sshd:
+    root:
+       123.xxx.ttt.zzz: 6 times
+
+ ---------------------- SSHD End -------------------------=20
+
+ --------------------- Disk Space Begin ------------------------=20
+
+ Filesystem            Size  Used Avail Use% Mounted on
+ /dev/sda3             450G  185G  241G  44% /
+ /dev/sda1              99M   35M   60M  37% /boot=20
+
+ ---------------------- Disk Space End -------------------------=20
+
+ ###################### Logwatch End #########################
+
+(Note output is truncated)
+</pre>
+<h3><span class=3D"mw-headline" id=3D"System_Accounting_menggunakan_auditd"=
+>System Accounting menggunakan auditd</span></h3>
+<p>auditd adalah layanan untuk melakukan system auditing. Dia bertanggung j=
+awab untuk menulis catatan audit ke disk. Pada saat startup, aturan di /etc=
+/audit.rules akan di baca oleh daemon ini. Kita dapat membuka file /etc/aud=
+it.rules dan membuat perubahan seperti setup audit log file dan berbagai op=
+si lainnya. Dengan auditd kita dapat menjawab pertanyaan berikut:
+</p>
+<ol><li> System startup and shutdown events (reboot / halt).</li>
+<li> Date and time of the event.</li>
+<li> User respoisble for the event (such as trying to access /path/to/topse=
+cret.dat file).</li>
+<li> Type of event (edit, access, delete, write, update file &amp; commands=
+).</li>
+<li> Success or failure of the event.</li>
+<li> Records events that Modify date and time.</li>
+<li> Find out who made changes to modify the system's network settings.</li=
+>
+<li> Record events that modify user/group information.</li>
+<li> See who made changes to a file etc.</li></ol>
+<p>See our quick tutorial which explains enabling and using the auditd serv=
+ice.
+</p>
+<h2><span class=3D"mw-headline" id=3D"Secure_OpenSSH_Server">Secure OpenSSH=
+ Server</span></h2>
+<p>SSH protocol di rekomendasikan untuk melakukan remote login dan remote t=
+ransfer file. Akan tetapi, ssh sangat terbuka akan serangan. Cara membuat a=
+man OpenSSH server dapat di baca di:
+</p>
+<ul><li> Top 20 OpenSSH Server Best Security Practices.</li></ul>
+<h2><span class=3D"mw-headline" id=3D"Instalasi_dan_Penggunaan_Intrusion_De=
+tection_System">Instalasi dan Penggunaan Intrusion Detection System</span><=
+/h2>
+<p>Sebuah <a href=3D"https://lms.onnocenter.or.id/wiki/index.php?title=3DNe=
+twork_intrusion_detection_system&amp;action=3Dedit&amp;redlink=3D1" class=
+=3D"new" title=3D"Network intrusion detection system (page does not exist)"=
+>network intrusion detection system</a> (<a href=3D"https://lms.onnocenter.=
+or.id/wiki/index.php?title=3DNIDS&amp;action=3Dedit&amp;redlink=3D1" class=
+=3D"new" title=3D"NIDS (page does not exist)">NIDS</a>) adalah sebuah <a hr=
+ef=3D"https://lms.onnocenter.or.id/wiki/index.php?title=3DIntrusion_detecti=
+on_system&amp;action=3Dedit&amp;redlink=3D1" class=3D"new" title=3D"Intrusi=
+on detection system (page does not exist)">intrusion detection system</a> y=
+ang akan berusaha mendeteksi berbagai aktifitas yang tidak baik seperti ser=
+angan <a href=3D"https://lms.onnocenter.or.id/wiki/index.php?title=3DDenial=
+_of_service&amp;action=3Dedit&amp;redlink=3D1" class=3D"new" title=3D"Denia=
+l of service (page does not exist)">denial of service</a>, port scans atau =
+bahkan usaha untuk mengcrack ke dalam komputer dengan cara memonitor traffi=
+c jaringan.
+</p><p>Sebaiknya dilakukan mengecekan integritas software sebelum system on=
+line dan masuk ke lingkungan produksi / operasional. Jika di mungkinkan ada=
+ baiknya di install software AIDE sebelum system tersambung ke jaringan apa=
+pun. AIDE adalah sebuah host-based intrusion detection system (HIDS) dia ak=
+an memonitor dan analisa internal dari system.
+</p><p>Snort is a software for intrusion detection which is capable of perf=
+orming packet logging and real-time traffic analysis on IP networks.
+</p>
+<h2><span class=3D"mw-headline" id=3D"Protecting_Files.2C_Directories_and_E=
+mail">Protecting Files, Directories and Email</span></h2>
+<p>Linux offers excellent protections against unauthorized data access. Fil=
+e permissions and MAC prevent unauthorized access from accessing data. Howe=
+ver, permissions set by the Linux are irrelevant if an attacker has physica=
+l access to a computer and can simply move the computer's hard drive to ano=
+ther system to copy and analyze the sensitive data. You can easily protect =
+files, and partitons under Linux using the following tools:
+</p>
+<ul><li> To encrypt and decrypt files with a password, use gpg command.</li=
+>
+<li> Linux or UNIX password protect files with openssl and other tools.</li=
+>
+<li> See how to encrypting directories with ecryptfs.</li>
+<li> TrueCrypt is free open-source disk encryption software for Windows 7/V=
+ista/XP, Mac OS X and Linux.</li>
+<li> Howto: Disk and partition encryption in Linux for mobile devices.</li>
+<li> How to setup encrypted Swap on Linux.</li></ul>
+<h3><span class=3D"mw-headline" id=3D"Mengamankan_Email_Server">Mengamankan=
+ Email Server</span></h3>
+<p>Anda dapat menggunakan <a href=3D"https://lms.onnocenter.or.id/wiki/inde=
+x.php?title=3DSSL&amp;action=3Dedit&amp;redlink=3D1" class=3D"new" title=3D=
+"SSL (page does not exist)">SSL</a> certificate dan <a href=3D"https://lms.=
+onnocenter.or.id/wiki/index.php?title=3DGpg&amp;action=3Dedit&amp;redlink=
+=3D1" class=3D"new" title=3D"Gpg (page does not exist)">gpg</a> key untuk m=
+engamankan komunikasi e-mail pada kedua komputer server dan klien:
+</p>
+<ul><li> <a href=3D"https://lms.onnocenter.or.id/wiki/index.php/Howto:_Linu=
+x_Dovecot_Secure_IMAPS_/_POP3S_SSL_Server_configuration" title=3D"Howto: Li=
+nux Dovecot Secure IMAPS / POP3S SSL Server configuration"> Linux Securing =
+Dovecot IMAPS / POP3S Server with SSL Configuration</a></li>
+<li> <a href=3D"https://lms.onnocenter.or.id/wiki/index.php/Linux_Postfix_S=
+MTP_(Mail_Server)_SSL_Certificate_Installations_and_Configuration" title=3D=
+"Linux Postfix SMTP (Mail Server) SSL Certificate Installations and Configu=
+ration"> Linux Postfix SMTP (Mail Server) SSL Certificate Installations and=
+ Configuration</a></li>
+<li> <a href=3D"https://lms.onnocenter.or.id/wiki/index.php/Courier_IMAP_SS=
+L_Server_Certificate_Installation_and_Configuration" title=3D"Courier IMAP =
+SSL Server Certificate Installation and Configuration">Courier IMAP SSL Ser=
+ver Certificate Installation and Configuration</a>.</li>
+<li> <a href=3D"https://lms.onnocenter.or.id/wiki/index.php/Configure_Sendm=
+ail_SSL_encryption_for_sending_and_receiving_email" title=3D"Configure Send=
+mail SSL encryption for sending and receiving email">Configure Sendmail SSL=
+ encryption for sending and receiving email</a>.</li>
+<li> <a href=3D"https://lms.onnocenter.or.id/wiki/index.php?title=3DEnigmai=
+l:_Encrypted_mail_with_Mozilla_thunderbird&amp;action=3Dedit&amp;redlink=3D=
+1" class=3D"new" title=3D"Enigmail: Encrypted mail with Mozilla thunderbird=
+ (page does not exist)">Enigmail: Encrypted mail with Mozilla thunderbird</=
+a>.</li></ul>
+<h4><span class=3D"mw-headline" id=3D"Rekomendasi_Lainnya:">Rekomendasi Lai=
+nnya:</span></h4>
+<ul><li> <a href=3D"https://lms.onnocenter.or.id/wiki/index.php/How_To_Set_=
+Red_hat_/_CentOS_Linux_Remote_Backup_/_Snapshot_Server" title=3D"How To Set=
+ Red hat / CentOS Linux Remote Backup / Snapshot Server"> Backups</a> - It =
+cannot be stressed enough how important it is to make a backup of your Linu=
+x system. A proper offsite backup allows you to recover from cracked server=
+ i.e. an intrusion. The traditional UNIX backup programs are dump and resto=
+re are also recommended.</li>
+<li> <a href=3D"https://lms.onnocenter.or.id/wiki/index.php/Linux_Detecting=
+_/_Checking_Rootkits_with_Chkrootkit_and_rkhunter_Software" title=3D"Linux =
+Detecting / Checking Rootkits with Chkrootkit and rkhunter Software"> How t=
+o: Looking for Rootkits</a>.</li>
+<li> Howto: Enable ExecShield Buffer Overflows Protection.</li>
+<li> Subscribe to Redhat or Debian Linux security mailing list or RSS feed.=
+</li></ul>
+<h2><span class=3D"mw-headline" id=3D"Bacaan_Rekomendasi">Bacaan Rekomendas=
+i</span></h2>
+<ol><li> <a rel=3D"nofollow" class=3D"external text" href=3D"http://www.red=
+hat.com/docs/manuals/enterprise/RHEL-4-Manual/en-US/Security_Guide/">Red Ha=
+t Enterprise Linux</a> - Security Guide.</li>
+<li> <a rel=3D"nofollow" class=3D"external text" href=3D"http://www.amazon.=
+com/gp/product/0596003919?ie=3DUTF8&amp;tag=3Dcyberciti-20&amp;linkCode=3Da=
+s2&amp;camp=3D1789&amp;creative=3D390957&amp;creativeASIN=3D0596003919">Lin=
+ux security cookbook</a>- Koleksi yang bagus tentag resep keamanan untuk ad=
+min Linux baru.</li>
+<li> <a rel=3D"nofollow" class=3D"external text" href=3D"http://www.amazon.=
+com/gp/product/1931836043?ie=3DUTF8&amp;tag=3Dcyberciti-20&amp;linkCode=3Da=
+s2&amp;camp=3D1789&amp;creative=3D390957&amp;creativeASIN=3D1931836043">Sno=
+rt 2.1 Intrusion Detection, Second Edition</a> - Pengenalan yang bagus untu=
+k Snort dan Intrusion detection pada Linux.</li>
+<li> <a rel=3D"nofollow" class=3D"external text" href=3D"http://www.amazon.=
+com/gp/product/1590594444?ie=3DUTF8&amp;tag=3Dcyberciti-20&amp;linkCode=3Da=
+s2&amp;camp=3D1789&amp;creative=3D390957&amp;creativeASIN=3D1590594444">Har=
+dening Linux</a> - Hardening Linux mengidentifikasi banyak risiko menjalank=
+an host Linux dan aplikasinya dan memberikan contoh-contoh praktis dan meto=
+de-metode untuk meminimalkan risiko tersebut. </li>
+<li> <a rel=3D"nofollow" class=3D"external text" href=3D"http://tldp.org/HO=
+WTO/html_single/Security-HOWTO/">Linux Security HOWTO</a></li></ol>
+<p>Pada bagian berikutnya dari seri ini saya akan membahas bagaimana mengam=
+ankan aplikasi spesifik (seperti proxy, Mail, LAMP, Database) dan beberapa =
+alat-alat keamanan lainnya.
+</p>
+<h2><span class=3D"mw-headline" id=3D"Referensi">Referensi</span></h2>
+<ul><li> <a rel=3D"nofollow" class=3D"external free" href=3D"http://www.cyb=
+erciti.biz/tips/linux-security.html">http://www.cyberciti.biz/tips/linux-se=
+curity.html</a></li></ul>
+<h2><span class=3D"mw-headline" id=3D"Pranala_Menarik">Pranala Menarik</spa=
+n></h2>
+<ul><li> <a href=3D"https://lms.onnocenter.or.id/wiki/index.php/Keamanan_Ja=
+ringan" title=3D"Keamanan Jaringan">Keamanan Jaringan</a></li></ul>
+
+<!--=20
+NewPP limit report
+Cached time: 20240104140030
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.304 seconds
+Real time usage: 0.314 seconds
+Preprocessor visited node count: 171/1000000
+Preprocessor generated node count: 176/1000000
+Post=E2=80=90expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!--=20
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    0.000      1 - -total
+-->
+
+<!-- Saved in parser cache with key WikiOC-wiki_:pcache:idhash:8178-0!*!0!!=
+en!*!* and timestamp 20240104140029 and revision id 60712
+ -->
+</div>					<div class=3D"printfooter">
+						Retrieved from "<a dir=3D"ltr" href=3D"https://lms.onnocenter.or.id/w=
+iki/index.php?title=3D20_Linux_Server_Hardening_Security_Tips&amp;oldid=3D6=
+0712">https://lms.onnocenter.or.id/wiki/index.php?title=3D20_Linux_Server_H=
+ardening_Security_Tips&amp;oldid=3D60712</a>"					</div>
+				<div id=3D"catlinks" class=3D"catlinks" data-mw=3D"interface"><div id=
+=3D"mw-normal-catlinks" class=3D"mw-normal-catlinks"><a href=3D"https://lms=
+.onnocenter.or.id/wiki/index.php/Special:Categories" title=3D"Special:Categ=
+ories">Category</a>: <ul><li><a href=3D"https://lms.onnocenter.or.id/wiki/i=
+ndex.php?title=3DCategory:Linux&amp;action=3Dedit&amp;redlink=3D1" class=3D=
+"new" title=3D"Category:Linux (page does not exist)">Linux</a></li></ul></d=
+iv></div>				<div class=3D"visualClear"></div>
+							</div>
+		</div>
+		<div id=3D"mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id=3D"mw-head">
+									<div id=3D"p-personal" role=3D"navigation" class=3D"" aria-labelle=
+dby=3D"p-personal-label">
+						<h3 id=3D"p-personal-label">Personal tools</h3>
+						<ul>
+							<li id=3D"pt-login"><a href=3D"https://lms.onnocenter.or.id/wiki/ind=
+ex.php?title=3DSpecial:UserLogin&amp;returnto=3D20+Linux+Server+Hardening+S=
+ecurity+Tips" title=3D"You are encouraged to log in; however, it is not man=
+datory [alt-shift-o]" accesskey=3D"o">Log in</a></li>						</ul>
+					</div>
+									<div id=3D"left-navigation">
+										<div id=3D"p-namespaces" role=3D"navigation" class=3D"vectorTabs"=
+ aria-labelledby=3D"p-namespaces-label">
+						<h3 id=3D"p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li id=3D"ca-nstab-main" class=3D"selected"><span><a href=3D=
+"https://lms.onnocenter.or.id/wiki/index.php/20_Linux_Server_Hardening_Secu=
+rity_Tips" title=3D"View the content page [alt-shift-c]" accesskey=3D"c">Pa=
+ge</a></span></li>
+															<li id=3D"ca-talk" class=3D"new"><span><a href=3D"https://lm=
+s.onnocenter.or.id/wiki/index.php?title=3DTalk:20_Linux_Server_Hardening_Se=
+curity_Tips&amp;action=3Dedit&amp;redlink=3D1" title=3D"Discussion about th=
+e content page [alt-shift-t]" accesskey=3D"t" rel=3D"discussion">Discussion=
+</a></span></li>
+													</ul>
+					</div>
+										<div id=3D"p-variants" role=3D"navigation" class=3D"vectorMenu em=
+ptyPortlet" aria-labelledby=3D"p-variants-label">
+												<h3 id=3D"p-variants-label" tabindex=3D"0">
+							<span>Variants</span><a href=3D"https://lms.onnocenter.or.id/wiki/in=
+dex.php/20_Linux_Server_Hardening_Security_Tips#" tabindex=3D"-1"></a>
+						</h3>
+
+						<div class=3D"menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id=3D"right-navigation">
+										<div id=3D"p-views" role=3D"navigation" class=3D"vectorTabs" aria=
+-labelledby=3D"p-views-label">
+						<h3 id=3D"p-views-label">Views</h3>
+						<ul>
+															<li id=3D"ca-view" class=3D"selected"><span><a href=3D"https=
+://lms.onnocenter.or.id/wiki/index.php/20_Linux_Server_Hardening_Security_T=
+ips">Read</a></span></li>
+															<li id=3D"ca-viewsource"><span><a href=3D"https://lms.onnoce=
+nter.or.id/wiki/index.php?title=3D20_Linux_Server_Hardening_Security_Tips&a=
+mp;action=3Dedit" title=3D"This page is protected.
+You can view its source [alt-shift-e]" accesskey=3D"e">View source</a></spa=
+n></li>
+															<li id=3D"ca-history" class=3D"collapsible"><span><a href=3D=
+"https://lms.onnocenter.or.id/wiki/index.php?title=3D20_Linux_Server_Harden=
+ing_Security_Tips&amp;action=3Dhistory" title=3D"Past revisions of this pag=
+e [alt-shift-h]" accesskey=3D"h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id=3D"p-cactions" role=3D"navigation" class=3D"vectorMenu em=
+ptyPortlet" aria-labelledby=3D"p-cactions-label" style=3D"">
+						<h3 id=3D"p-cactions-label" tabindex=3D"0"><span>More</span><a href=
+=3D"https://lms.onnocenter.or.id/wiki/index.php/20_Linux_Server_Hardening_S=
+ecurity_Tips#" tabindex=3D"-1"></a></h3>
+
+						<div class=3D"menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id=3D"p-search" role=3D"search">
+						<h3>
+							<label for=3D"searchInput">Search</label>
+						</h3>
+
+						<form action=3D"https://lms.onnocenter.or.id/wiki/index.php" id=3D"se=
+archform">
+							<div id=3D"simpleSearch">
+							<input type=3D"search" name=3D"search" placeholder=3D"Search" title=
+=3D"Search OnnoWiki [alt-shift-f]" accesskey=3D"f" id=3D"searchInput" tabin=
+dex=3D"1" autocomplete=3D"off"><input type=3D"submit" name=3D"go" value=3D"=
+Go" title=3D"Go to a page with this exact name if it exists" id=3D"searchBu=
+tton" class=3D"searchButton">							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id=3D"mw-panel">
+				<div id=3D"p-logo" role=3D"banner"><a class=3D"mw-wiki-logo" href=3D"ht=
+tps://lms.onnocenter.or.id/wiki/index.php/Main_Page" title=3D"Visit the mai=
+n page"></a></div>
+						<div class=3D"portal" role=3D"navigation" id=3D"p-navigation" aria-la=
+belledby=3D"p-navigation-label">
+			<h3 id=3D"p-navigation-label">Navigation</h3>
+
+			<div class=3D"body">
+									<ul>
+						<li id=3D"n-mainpage-description"><a href=3D"https://lms.onnocenter.o=
+r.id/wiki/index.php/Main_Page" title=3D"Visit the main page [alt-shift-z]" =
+accesskey=3D"z">Main page</a></li><li id=3D"n-recentchanges"><a href=3D"htt=
+ps://lms.onnocenter.or.id/wiki/index.php/Special:RecentChanges" title=3D"A =
+list of recent changes in the wiki [alt-shift-r]" accesskey=3D"r">Recent ch=
+anges</a></li><li id=3D"n-randompage"><a href=3D"https://lms.onnocenter.or.=
+id/wiki/index.php/Special:Random" title=3D"Load a random page [alt-shift-x]=
+" accesskey=3D"x">Random page</a></li><li id=3D"n-help-mediawiki"><a href=
+=3D"https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents">Help a=
+bout MediaWiki</a></li>					</ul>
+							</div>
+		</div>
+			<div class=3D"portal" role=3D"navigation" id=3D"p-tb" aria-labelledby=3D=
+"p-tb-label">
+			<h3 id=3D"p-tb-label">Tools</h3>
+
+			<div class=3D"body">
+									<ul>
+						<li id=3D"t-whatlinkshere"><a href=3D"https://lms.onnocenter.or.id/wi=
+ki/index.php/Special:WhatLinksHere/20_Linux_Server_Hardening_Security_Tips"=
+ title=3D"A list of all wiki pages that link here [alt-shift-j]" accesskey=
+=3D"j">What links here</a></li><li id=3D"t-recentchangeslinked"><a href=3D"=
+https://lms.onnocenter.or.id/wiki/index.php/Special:RecentChangesLinked/20_=
+Linux_Server_Hardening_Security_Tips" title=3D"Recent changes in pages link=
+ed from this page [alt-shift-k]" accesskey=3D"k">Related changes</a></li><l=
+i id=3D"t-specialpages"><a href=3D"https://lms.onnocenter.or.id/wiki/index.=
+php/Special:SpecialPages" title=3D"A list of all special pages [alt-shift-q=
+]" accesskey=3D"q">Special pages</a></li><li id=3D"t-print"><a href=3D"http=
+s://lms.onnocenter.or.id/wiki/index.php?title=3D20_Linux_Server_Hardening_S=
+ecurity_Tips&amp;printable=3Dyes" rel=3D"alternate" title=3D"Printable vers=
+ion of this page [alt-shift-p]" accesskey=3D"p">Printable version</a></li><=
+li id=3D"t-permalink"><a href=3D"https://lms.onnocenter.or.id/wiki/index.ph=
+p?title=3D20_Linux_Server_Hardening_Security_Tips&amp;oldid=3D60712" title=
+=3D"Permanent link to this revision of the page">Permanent link</a></li><li=
+ id=3D"t-info"><a href=3D"https://lms.onnocenter.or.id/wiki/index.php?title=
+=3D20_Linux_Server_Hardening_Security_Tips&amp;action=3Dinfo" title=3D"More=
+ information about this page">Page information</a></li>					</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id=3D"footer" role=3D"contentinfo">
+							<ul id=3D"footer-info">
+											<li id=3D"footer-info-lastmod"> This page was last modified on 1=
+ April 2020, at 11:50.</li>
+									</ul>
+							<ul id=3D"footer-places">
+											<li id=3D"footer-places-privacy"><a href=3D"https://lms.onnocent=
+er.or.id/wiki/index.php/OnnoWiki:Privacy_policy" title=3D"OnnoWiki:Privacy =
+policy">Privacy policy</a></li>
+											<li id=3D"footer-places-about"><a href=3D"https://lms.onnocenter=
+.or.id/wiki/index.php/OnnoWiki:About" title=3D"OnnoWiki:About">About OnnoWi=
+ki</a></li>
+											<li id=3D"footer-places-disclaimer"><a href=3D"https://lms.onnoc=
+enter.or.id/wiki/index.php/OnnoWiki:General_disclaimer" title=3D"OnnoWiki:G=
+eneral disclaimer">Disclaimers</a></li>
+									</ul>
+										<ul id=3D"footer-icons" class=3D"noprint">
+											<li id=3D"footer-poweredbyico">
+							<a href=3D"https://www.mediawiki.org/"><img src=3D"https://lms.onnoc=
+enter.or.id/wiki/resources/assets/poweredby_mediawiki_88x31.png" alt=3D"Pow=
+ered by MediaWiki" width=3D"88" height=3D"31"></a>						</li>
+									</ul>
+						<div style=3D"clear:both"></div>
+		</div>
+	=09
+=09
+
+<div class=3D"suggestions" style=3D"display: none; font-size: 13px;"><div c=
+lass=3D"suggestions-results"></div><div class=3D"suggestions-special"></div=
+></div></body></html>
+------MultipartBoundary--D4vkrxqZFIStPzlkieiIXrv9tko1a7N6VcDV97owcp----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-d2d4d8ed-1f8d-46c7-acdd-60d42cd9f70f@mhtml.blink
+
+@charset "utf-8";
+
+.mw-collapsible-toggle { float: right; user-select: none; }
+
+.mw-content-ltr .mw-collapsible-toggle, .mw-content-rtl .mw-content-ltr .mw=
+-collapsible-toggle { float: right; }
+
+.mw-content-rtl .mw-collapsible-toggle, .mw-content-ltr .mw-content-rtl .mw=
+-collapsible-toggle { float: left; }
+
+.mw-customtoggle, .mw-collapsible-toggle { cursor: pointer; }
+
+caption .mw-collapsible-toggle, .mw-content-ltr caption .mw-collapsible-tog=
+gle, .mw-content-rtl caption .mw-collapsible-toggle, .mw-content-rtl .mw-co=
+ntent-ltr caption .mw-collapsible-toggle, .mw-content-ltr .mw-content-rtl c=
+aption .mw-collapsible-toggle { float: none; }
+
+li .mw-collapsible-toggle, .mw-content-ltr li .mw-collapsible-toggle, .mw-c=
+ontent-rtl li .mw-collapsible-toggle, .mw-content-rtl .mw-content-ltr li .m=
+w-collapsible-toggle, .mw-content-ltr .mw-content-rtl li .mw-collapsible-to=
+ggle { float: none; }
+
+.mw-collapsible-toggle-li { list-style: none; }
+
+.suggestions { overflow: hidden; position: absolute; top: 0px; left: 0px; w=
+idth: 0px; border: none; z-index: 1099; padding: 0px; margin: -1px 0px 0px;=
+ }
+
+.suggestions-special { position: relative; background-color: white; cursor:=
+ pointer; border: 1px solid rgb(170, 170, 170); margin: -2px 0px 0px; displ=
+ay: none; padding: 0.25em; line-height: 1.25em; }
+
+.suggestions-results { background-color: white; cursor: pointer; border: 1p=
+x solid rgb(170, 170, 170); padding: 0px; margin: 0px; }
+
+.suggestions-result { color: black; margin: 0px; line-height: 1.5em; paddin=
+g: 0.01em 0.25em; text-align: left; overflow: hidden; text-overflow: ellips=
+is; white-space: nowrap; }
+
+.suggestions-result-current { background-color: rgb(76, 89, 166); color: wh=
+ite; }
+
+.suggestions-special .special-label { color: gray; text-align: left; }
+
+.suggestions-special .special-query { color: black; font-style: italic; tex=
+t-align: left; }
+
+.suggestions-special .special-hover { background-color: silver; }
+
+.suggestions-result-current .special-label, .suggestions-result-current .sp=
+ecial-query { color: white; }
+
+.highlight { font-weight: bold; }
+
+@media screen {
+  .tochidden, .toctoggle { user-select: none; }
+  .toctoggle { font-size: 94%; }
+}
+
+@media print {
+  #toc.tochidden, .toctoggle { display: none; }
+}
+
+.postedit-container { margin: 0px auto; position: fixed; top: 0px; height: =
+0px; left: 50%; z-index: 1000; font-size: 13px; }
+
+.postedit-container:hover { cursor: pointer; }
+
+.postedit { position: relative; top: 0.6em; left: -50%; padding: 0.6em 3.6e=
+m 0.6em 1.1em; line-height: 1.5625em; color: rgb(98, 100, 101); background-=
+color: rgb(244, 244, 244); border: 1px solid rgb(220, 217, 217); text-shado=
+w: rgba(255, 255, 255, 0.5) 0px 0.0625em 0px; border-radius: 5px; box-shado=
+w: rgb(204, 204, 204) 0px 2px 5px 0px; transition: all 0.25s ease-in-out 0s=
+; }
+
+.skin-monobook .postedit { top: 6em !important; }
+
+.postedit-faded { opacity: 0; }
+
+.postedit-icon { padding-left: 41px; line-height: 25px; background-repeat: =
+no-repeat; background-position: 8px 50%; }
+
+.postedit-icon-checkmark { background-image: url("data:image/png;base64,iVB=
+ORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB9ElEQVR4AZWRA3AYURQArxrVHtW2bd=
+u2bdu2zdi2bdu2bWxs7zeehZaw4f70kbs+zI3e/nWK+RWx3aOFlrL56Sy5SxrruG69hlv6OyK+m=
+z+8KDSXdXembj0ispT7tjs4ZTIbpYBvxGSGKzZTeFrb7W/meN002swFs0U8ttpHTkF2BvCqWQrW=
+35929bTsKm5Zb+SEwWwcY8wAngB9m7Z+d+rIPZ/npdy12M5p47n8dXsCYAf0qPy06eGMdktuDu9=
+Qf+JmKl3SWM91qzVcN9tAbEYkwMaq0tyb1m/To5kP170el/BK8/qa6sJr70ydf+T/Uu5ab+Oo/l=
+S0AkUBpIFWlZ9WPhxpse/PHO7YbOOczjL0vZV2lNxPPtG73dYXM+xvm2znrOl83tidoqCwMBgYX=
+sPFB0on5S6pr+eK5TKuW67lgvaKvF8mL1dtfTL32FHxRdyx3cQpg7m4x9sCXKkTIzA4LDH44zWd=
+zaUf71hv5rTG4uyzcusybxSX7aThbMQ8XgCYAp3rzTTQOiIh9PNlzY3FSuZxrzjme1Y7uGS6kjs=
+WO4jPjM4FVjRZsvD4kO9XtTZzQn82NyzWc0B7AmZh6gA/hOYSGhfw9YbOVnarj+S7800AL2BIsx=
+UAbWNToj7bhBuQmZcOsFdoKUC74rGheCwXmqAIQTc9jQcrADIAAAAASUVORK5CYII=3D"); bac=
+kground-position: left center; }
+
+.postedit-close { position: absolute; padding: 0px 0.8em; right: 0px; top: =
+0px; font-size: 1.25em; font-weight: bold; line-height: 2.3em; color: black=
+; text-shadow: white 0px 0.0625em 0px; text-decoration: none; opacity: 0.2;=
+ }
+
+.postedit-close:hover { color: black; text-decoration: none; opacity: 0.4; }
+------MultipartBoundary--D4vkrxqZFIStPzlkieiIXrv9tko1a7N6VcDV97owcp----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-3cd11234-a9b5-442b-94b9-faf8a2999ade@mhtml.blink
+
+@charset "utf-8";
+
+.suggestions a.mw-searchSuggest-link, .suggestions a.mw-searchSuggest-link:=
+hover, .suggestions a.mw-searchSuggest-link:active, .suggestions a.mw-searc=
+hSuggest-link:focus { color: black; text-decoration: none; }
+
+.suggestions-result-current a.mw-searchSuggest-link, .suggestions-result-cu=
+rrent a.mw-searchSuggest-link:hover, .suggestions-result-current a.mw-searc=
+hSuggest-link:active, .suggestions-result-current a.mw-searchSuggest-link:f=
+ocus { color: white; }
+
+.suggestions a.mw-searchSuggest-link .special-query { overflow: hidden; tex=
+t-overflow: ellipsis; white-space: nowrap; }
+------MultipartBoundary--D4vkrxqZFIStPzlkieiIXrv9tko1a7N6VcDV97owcp----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://lms.onnocenter.or.id/wiki/load.php?debug=false&lang=en&modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles&only=styles&skin=vector
+
+@charset "utf-8";
+
+@media print {
+  .noprint, div#jump-to-nav, .mw-jump, div.top, div#column-one, .mw-editsec=
+tion, .mw-editsection-like, #footer-places, .mw-hidden-catlinks, .usermessa=
+ge, .patrollink, .ns-0 .mw-redirectedfrom, div.magnify, #mw-navigation, #si=
+teNotice, div#f-poweredbyico, div#f-copyrightico, li#about, li#disclaimer, =
+li#mobileview, li#privacy { display: none; }
+  body { background: rgb(255, 255, 255); color: rgb(0, 0, 0); margin: 0px; =
+padding: 0px; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; break-after: avoid; }
+  dt { font-weight: bold; }
+  ul { list-style-type: square; }
+  p { margin: 1em 0px; line-height: 1.2em; orphans: 3; widows: 3; }
+  pre, .mw-code { background: rgb(255, 255, 255); color: rgb(0, 0, 0); bord=
+er: 1pt dashed rgb(0, 0, 0); padding: 1em 0px; font-size: 8pt; white-space:=
+ pre; overflow-wrap: break-word; overflow: auto; }
+  img, .wikitable, .thumb { break-inside: avoid; }
+  img { border: 0px; vertical-align: middle; }
+  #globalWrapper { width: 100% !important; min-width: 0px !important; }
+  .mw-body { background: rgb(255, 255, 255); color: rgb(0, 0, 0); direction=
+: ltr; border: 0px !important; padding: 0px !important; margin: 0px !import=
+ant; }
+  #column-content { margin: 0px !important; }
+  #column-content .mw-body { padding: 1em; margin: 0px !important; }
+  #toc { background-color: rgb(249, 249, 249); border: 1pt solid rgb(170, 1=
+70, 170); padding: 5px; display: table; }
+  .tocnumber, .toctext { display: table-cell; }
+  .tocnumber { padding-left: 0px; padding-right: 0.5em; }
+  .mw-content-ltr .tocnumber { padding-left: 0px; padding-right: 0.5em; }
+  .mw-content-rtl .tocnumber { padding-left: 0.5em; padding-right: 0px; }
+  #footer { background: rgb(255, 255, 255); color: rgb(0, 0, 0); margin-top=
+: 1em; border-top: 1pt solid rgb(170, 170, 170); direction: ltr; }
+  a { background: none !important; padding: 0px !important; }
+  .mw-body a.external.text::after, .mw-body a.external.autonumber::after { =
+content: " (" attr(href) ")"; overflow-wrap: break-word; }
+  .mw-body a.external.text[href^=3D"//"]::after, .mw-body a.external.autonu=
+mber[href^=3D"//"]::after { content: " (https:" attr(href) ")"; }
+  a, a.external, a.new, a.stub { color: rgb(0, 0, 0) !important; text-decor=
+ation: none !important; }
+  a, a.external, a.new, a.stub { color: inherit !important; text-decoration=
+: inherit !important; }
+  div.floatright { float: right; clear: right; position: relative; margin: =
+0.5em 0px 0.8em 1.4em; }
+  div.floatright p { font-style: italic; }
+  div.floatleft { float: left; clear: left; position: relative; margin: 0.5=
+em 1.4em 0.8em 0px; }
+  div.floatleft p { font-style: italic; }
+  div.center { text-align: center; }
+  div.thumb { background-color: transparent; border: 0px; width: auto; marg=
+in-top: 0.5em; margin-bottom: 0.8em; }
+  div.thumbinner { background-color: rgb(255, 255, 255); border: 1pt solid =
+rgb(204, 204, 204); font-size: 94%; text-align: center; overflow: hidden; p=
+adding: 3px !important; }
+  html .thumbimage { border: 1pt solid rgb(204, 204, 204); }
+  html .thumbcaption { border: none; text-align: left; line-height: 1.4em; =
+font-size: 94%; padding: 3px !important; }
+  div.tright { float: right; clear: right; margin: 0.5em 0px 0.8em 1.4em; }
+  div.tleft { float: left; clear: left; margin: 0.5em 1.4em 0.8em 0px; }
+  img.thumbborder { border: 1pt solid rgb(221, 221, 221); }
+  table.wikitable, table.mw_metadata { background: rgb(255, 255, 255); marg=
+in: 1em 0px; border: 1pt solid rgb(170, 170, 170); border-collapse: collaps=
+e; }
+  table.wikitable > tr > th, table.wikitable > tr > td, table.wikitable > *=
+ > tr > th, table.wikitable > * > tr > td, .mw_metadata th, .mw_metadata td=
+ { border: 1pt solid rgb(170, 170, 170); padding: 0.2em; }
+  table.wikitable > tr > th, table.wikitable > * > tr > th, .mw_metadata th=
+ { background: rgb(255, 255, 255); font-weight: bold; text-align: center; }
+  table.wikitable > caption, .mw_metadata caption { font-weight: bold; }
+  table.listing, table.listing td { border: 1pt solid rgb(0, 0, 0); border-=
+collapse: collapse; }
+  a.sortheader { margin: 0px 0.3em; }
+  .catlinks ul { display: inline; padding: 0px; list-style: none none; }
+  .catlinks li { display: inline-block; line-height: 1.15em; padding: 0px 0=
+.4em; border-left: 1pt solid rgb(170, 170, 170); margin: 0.1em 0px; }
+  .catlinks li:first-child { padding-left: 0.2em; border-left: 0px; }
+  .printfooter { padding: 1em 0px; }
+}
+
+@media screen {
+  .mw-content-ltr { direction: ltr; }
+  .mw-content-rtl { direction: rtl; }
+  .sitedir-ltr textarea, .sitedir-ltr input { direction: ltr; }
+  .sitedir-rtl textarea, .sitedir-rtl input { direction: rtl; }
+  .mw-userlink { unicode-bidi: embed; }
+  mark { background-color: yellow; color: black; }
+  wbr { display: inline-block; }
+  input[type=3D"submit"], input[type=3D"button"], input[type=3D"reset"], in=
+put[type=3D"file"] { direction: ltr; }
+  textarea[dir=3D"ltr"], input[dir=3D"ltr"] { direction: ltr; }
+  textarea[dir=3D"rtl"], input[dir=3D"rtl"] { direction: rtl; }
+  abbr[title], .explain[title] { border-bottom: 1px dotted; cursor: help; }
+  @supports (text-decoration:underline dotted) {
+  abbr[title], .explain[title] { border-bottom: none; text-decoration: unde=
+rline dotted; }
+}
+  .mw-plusminus-pos { color: rgb(0, 100, 0); }
+  .mw-plusminus-neg { color: rgb(139, 0, 0); }
+  .mw-plusminus-null { color: rgb(170, 170, 170); }
+  .mw-plusminus-pos, .mw-plusminus-neg, .mw-plusminus-null { unicode-bidi: =
+isolate; }
+  span.comment { font-style: italic; unicode-bidi: isolate; }
+  #wikiPreview.ontop { margin-bottom: 1em; }
+  #editform, #toolbar, #wpTextbox1 { clear: both; }
+  li span.deleted, span.history-deleted { text-decoration: line-through; co=
+lor: rgb(136, 136, 136); font-style: italic; }
+  .not-patrolled { background-color: rgb(255, 255, 170); }
+  .unpatrolled { font-weight: bold; color: red; }
+  div.patrollink { font-size: 75%; text-align: right; }
+  td.mw-label { text-align: right; }
+  td.mw-input { text-align: left; }
+  td.mw-submit { text-align: left; }
+  td.mw-label { vertical-align: middle; }
+  td.mw-submit { white-space: nowrap; }
+  input#wpSummary { width: 80%; margin-bottom: 1em; }
+  .mw-input-with-label { white-space: nowrap; }
+  .mw-content-ltr .thumbcaption { text-align: left; }
+  .mw-content-ltr .magnify { float: right; }
+  .mw-content-rtl .thumbcaption { text-align: right; }
+  .mw-content-rtl .magnify { float: left; }
+  #catlinks { text-align: left; }
+  .catlinks ul { display: inline; margin: 0px; padding: 0px; list-style: no=
+ne none; }
+  .catlinks li { display: inline-block; line-height: 1.25em; border-left: 1=
+px solid rgb(170, 170, 170); margin: 0.125em 0px; padding: 0px 0.5em; zoom:=
+ 1; }
+  .catlinks li:first-child { padding-left: 0.25em; border-left: none; }
+  .catlinks li a.mw-redirect { font-style: italic; }
+  .mw-hidden-cats-hidden { display: none; }
+  .catlinks-allhidden { display: none; }
+  p.mw-protect-editreasons, p.mw-filedelete-editreasons, p.mw-delete-editre=
+asons { font-size: 90%; text-align: right; }
+  .autocomment { color: gray; }
+  #pagehistory .history-user { margin-left: 0.4em; margin-right: 0.2em; }
+  #pagehistory li { border: 1px solid white; }
+  #pagehistory li.selected { background-color: rgb(249, 249, 249); border: =
+1px dashed rgb(170, 170, 170); }
+  .mw-history-revisionactions { float: right; }
+  .newpage, .minoredit, .botedit { font-weight: bold; }
+  div.mw-warning-with-logexcerpt { padding: 3px; margin-bottom: 3px; border=
+: 2px solid rgb(47, 111, 171); clear: both; }
+  div.mw-warning-with-logexcerpt ul li { font-size: 90%; }
+  span.mw-revdelundel-link, strong.mw-revdelundel-link { font-size: 90%; }
+  span.mw-revdelundel-hidden, input.mw-revdelundel-hidden { visibility: hid=
+den; }
+  td.mw-revdel-checkbox, th.mw-revdel-checkbox { padding-right: 10px; text-=
+align: center; }
+  a.new { color: rgb(186, 0, 0); }
+  .plainlinks a.external { background: none !important; padding: 0px !impor=
+tant; }
+  .rtl a.external.free, .rtl a.external.autonumber { direction: ltr; unicod=
+e-bidi: embed; }
+  table.wikitable { margin: 1em 0px; background-color: rgb(249, 249, 249); =
+border: 1px solid rgb(170, 170, 170); border-collapse: collapse; color: bla=
+ck; }
+  table.wikitable > tr > th, table.wikitable > tr > td, table.wikitable > *=
+ > tr > th, table.wikitable > * > tr > td { border: 1px solid rgb(170, 170,=
+ 170); padding: 0.2em 0.4em; }
+  table.wikitable > tr > th, table.wikitable > * > tr > th { background-col=
+or: rgb(242, 242, 242); text-align: center; }
+  table.wikitable > caption { font-weight: bold; }
+  .error, .warning, .success { font-size: larger; }
+  .error { color: rgb(204, 0, 0); }
+  .warning { color: rgb(112, 80, 0); }
+  .success { color: rgb(0, 144, 0); }
+  .errorbox, .warningbox, .successbox { border: 1px solid; padding: 0.5em 1=
+em; margin-bottom: 1em; display: inline-block; zoom: 1; }
+  .errorbox h2, .warningbox h2, .successbox h2 { font-size: 1em; color: inh=
+erit; font-weight: bold; display: inline; margin: 0px 0.5em 0px 0px; border=
+: none; }
+  .errorbox { color: rgb(204, 0, 0); border-color: rgb(250, 197, 197); back=
+ground-color: rgb(250, 227, 227); }
+  .warningbox { color: rgb(112, 80, 0); border-color: rgb(253, 226, 155); b=
+ackground-color: rgb(253, 241, 209); }
+  .successbox { color: rgb(0, 128, 0); border-color: rgb(183, 253, 181); ba=
+ckground-color: rgb(225, 253, 223); }
+  .mw-infobox { border: 2px solid rgb(255, 127, 0); margin: 0.5em; clear: l=
+eft; overflow: hidden; }
+  .mw-infobox-left { margin: 7px; float: left; width: 35px; }
+  .mw-infobox-right { margin: 0.5em 0.5em 0.5em 49px; }
+  .previewnote { color: rgb(204, 0, 0); margin-bottom: 1em; }
+  .previewnote p { text-indent: 3em; margin: 0.8em 0px; }
+  .visualClear { clear: both; }
+  .mw-datatable { border-collapse: collapse; }
+  .mw-datatable, .mw-datatable td, .mw-datatable th { border: 1px solid rgb=
+(170, 170, 170); padding: 0px 0.15em; }
+  .mw-datatable th { background-color: rgb(221, 221, 255); }
+  .mw-datatable td { background-color: rgb(255, 255, 255); }
+  .mw-datatable tr:hover td { background-color: rgb(238, 238, 255); }
+  table.mw_metadata { font-size: 0.8em; margin-left: 0.5em; margin-bottom: =
+0.5em; width: 400px; }
+  table.mw_metadata caption { font-weight: bold; }
+  table.mw_metadata th { font-weight: normal; }
+  table.mw_metadata td { padding: 0.1em; }
+  table.mw_metadata { border: none; border-collapse: collapse; }
+  table.mw_metadata td, table.mw_metadata th { text-align: center; border: =
+1px solid rgb(170, 170, 170); padding-left: 5px; padding-right: 5px; }
+  table.mw_metadata th { background-color: rgb(249, 249, 249); }
+  table.mw_metadata td { background-color: rgb(252, 252, 252); }
+  table.mw_metadata ul.metadata-langlist { list-style-type: none; list-styl=
+e-image: none; padding-right: 5px; padding-left: 5px; margin: 0px; }
+  .mw-content-ltr ul, .mw-content-rtl .mw-content-ltr ul { margin: 0.3em 0p=
+x 0px 1.6em; padding: 0px; }
+  .mw-content-rtl ul, .mw-content-ltr .mw-content-rtl ul { margin: 0.3em 1.=
+6em 0px 0px; padding: 0px; }
+  .mw-content-ltr ol, .mw-content-rtl .mw-content-ltr ol { margin: 0.3em 0p=
+x 0px 3.2em; padding: 0px; }
+  .mw-content-rtl ol, .mw-content-ltr .mw-content-rtl ol { margin: 0.3em 3.=
+2em 0px 0px; padding: 0px; }
+  .mw-content-ltr dd, .mw-content-rtl .mw-content-ltr dd { margin-left: 1.6=
+em; margin-right: 0px; }
+  .mw-content-rtl dd, .mw-content-ltr .mw-content-rtl dd { margin-right: 1.=
+6em; margin-left: 0px; }
+  .mw-ajax-loader { background-image: url("/wiki/resources/src/mediawiki.le=
+gacy/images/ajax-loader.gif?57f34"); background-position: center center; ba=
+ckground-repeat: no-repeat; padding: 16px; position: relative; top: -16px; =
+}
+  .mw-small-spinner { margin-right: 0.6em; background-image: url("/wiki/res=
+ources/src/mediawiki.legacy/images/spinner.gif?ca65b"); background-position=
+: center center; background-repeat: no-repeat; padding: 10px !important; }
+  h1:lang(anp), h1:lang(as), h1:lang(bh), h1:lang(bho), h1:lang(bn), h1:lan=
+g(gu), h1:lang(hi), h1:lang(kn), h1:lang(ks), h1:lang(ml), h1:lang(mr), h1:=
+lang(my), h1:lang(mai), h1:lang(ne), h1:lang(new), h1:lang(or), h1:lang(pa)=
+, h1:lang(pi), h1:lang(sa), h1:lang(ta), h1:lang(te) { line-height: 1.6em !=
+important; }
+  h2:lang(anp), h3:lang(anp), h4:lang(anp), h5:lang(anp), h6:lang(anp), h2:=
+lang(as), h3:lang(as), h4:lang(as), h5:lang(as), h6:lang(as), h2:lang(bho),=
+ h3:lang(bho), h4:lang(bho), h5:lang(bho), h6:lang(bho), h2:lang(bh), h3:la=
+ng(bh), h4:lang(bh), h5:lang(bh), h6:lang(bh), h2:lang(bn), h3:lang(bn), h4=
+:lang(bn), h5:lang(bn), h6:lang(bn), h2:lang(gu), h3:lang(gu), h4:lang(gu),=
+ h5:lang(gu), h6:lang(gu), h2:lang(hi), h3:lang(hi), h4:lang(hi), h5:lang(h=
+i), h6:lang(hi), h2:lang(kn), h3:lang(kn), h4:lang(kn), h5:lang(kn), h6:lan=
+g(kn), h2:lang(ks), h3:lang(ks), h4:lang(ks), h5:lang(ks), h6:lang(ks), h2:=
+lang(ml), h3:lang(ml), h4:lang(ml), h5:lang(ml), h6:lang(ml), h2:lang(mr), =
+h3:lang(mr), h4:lang(mr), h5:lang(mr), h6:lang(mr), h2:lang(my), h3:lang(my=
+), h4:lang(my), h5:lang(my), h6:lang(my), h2:lang(mai), h3:lang(mai), h4:la=
+ng(mai), h5:lang(mai), h6:lang(mai), h2:lang(ne), h3:lang(ne), h4:lang(ne),=
+ h5:lang(ne), h6:lang(ne), h2:lang(new), h3:lang(new), h4:lang(new), h5:lan=
+g(new), h6:lang(new), h2:lang(or), h3:lang(or), h4:lang(or), h5:lang(or), h=
+6:lang(or), h2:lang(pa), h3:lang(pa), h4:lang(pa), h5:lang(pa), h6:lang(pa)=
+, h2:lang(pi), h3:lang(pi), h4:lang(pi), h5:lang(pi), h6:lang(pi), h2:lang(=
+sa), h3:lang(sa), h4:lang(sa), h5:lang(sa), h6:lang(sa), h2:lang(ta), h3:la=
+ng(ta), h4:lang(ta), h5:lang(ta), h6:lang(ta), h2:lang(te), h3:lang(te), h4=
+:lang(te), h5:lang(te), h6:lang(te) { line-height: 1.2em; }
+  ol:lang(azb) li, ol:lang(bcc) li, ol:lang(bgn) li, ol:lang(bqi) li, ol:la=
+ng(fa) li, ol:lang(glk) li, ol:lang(kk-arab) li, ol:lang(lrc) li, ol:lang(l=
+uz) li, ol:lang(mzn) li { list-style-type: persian; }
+  ol:lang(ckb) li, ol:lang(sdh) li { list-style-type: arabic-indic; }
+  ol:lang(hi) li, ol:lang(mr) li { list-style-type: devanagari; }
+  ol:lang(as) li, ol:lang(bn) li { list-style-type: bengali; }
+  ol:lang(or) li { list-style-type: oriya; }
+  #toc ul, .toc ul { margin: 0.3em 0px; }
+  .mw-content-ltr .toc ul, .mw-content-ltr #toc ul, .mw-content-rtl .mw-con=
+tent-ltr .toc ul, .mw-content-rtl .mw-content-ltr #toc ul { text-align: lef=
+t; }
+  .mw-content-rtl .toc ul, .mw-content-rtl #toc ul, .mw-content-ltr .mw-con=
+tent-rtl .toc ul, .mw-content-ltr .mw-content-rtl #toc ul { text-align: rig=
+ht; }
+  .mw-content-ltr .toc ul ul, .mw-content-ltr #toc ul ul, .mw-content-rtl .=
+mw-content-ltr .toc ul ul, .mw-content-rtl .mw-content-ltr #toc ul ul { mar=
+gin: 0px 0px 0px 2em; }
+  .mw-content-rtl .toc ul ul, .mw-content-rtl #toc ul ul, .mw-content-ltr .=
+mw-content-rtl .toc ul ul, .mw-content-ltr .mw-content-rtl #toc ul ul { mar=
+gin: 0px 2em 0px 0px; }
+  #toc #toctitle, .toc #toctitle, #toc .toctitle, .toc .toctitle { directio=
+n: ltr; }
+  .mw-help-field-hint { display: none; margin-left: 2px; margin-bottom: -8p=
+x; padding: 0px 0px 0px 15px; background-image: url("/wiki/resources/src/me=
+diawiki.legacy/images/help-question.gif?346d8"); background-position: left =
+center; background-repeat: no-repeat; cursor: pointer; font-size: 0.8em; te=
+xt-decoration: underline; color: rgb(6, 69, 173); }
+  .mw-help-field-hint:hover { background-image: url("/wiki/resources/src/me=
+diawiki.legacy/images/help-question-hover.gif?53eb5"); }
+  .mw-help-field-data { display: block; background-color: rgb(214, 243, 255=
+); padding: 5px 8px 4px; border: 1px solid rgb(93, 201, 244); margin-left: =
+20px; }
+  #mw-clearyourcache, #mw-sitecsspreview, #mw-sitejspreview, #mw-usercsspre=
+view, #mw-userjspreview { direction: ltr; unicode-bidi: embed; }
+  .diff-currentversion-title, .diff { direction: ltr; unicode-bidi: embed; =
+}
+  .diff-contentalign-right td { direction: rtl; unicode-bidi: embed; }
+  .diff-contentalign-left td { direction: ltr; unicode-bidi: embed; }
+  .diff-multi, .diff-otitle, .diff-ntitle, .diff-lineno { unicode-bidi: emb=
+ed; direction: ltr !important; }
+  #mw-revision-info, #mw-revision-info-current, #mw-revision-nav { directio=
+n: ltr; display: inline; }
+  div.tright, div.floatright, table.floatright { clear: right; float: right=
+; }
+  div.tleft, div.floatleft, table.floatleft { float: left; clear: left; }
+  div.floatright, table.floatright, div.floatleft, table.floatleft { positi=
+on: relative; }
+  #mw-credits a { unicode-bidi: embed; }
+  .mw-jump, #jump-to-nav { overflow: hidden; height: 0px; zoom: 1; }
+  .printfooter { display: none; }
+  .xdebug-error { position: absolute; z-index: 99; }
+  .mw-editsection, #jump-to-nav { user-select: none; }
+  .mw-editsection, .mw-editsection-like { font-size: small; font-weight: no=
+rmal; margin-left: 1em; vertical-align: baseline; line-height: 1em; display=
+: inline-block; }
+  .mw-content-ltr .mw-editsection, .mw-content-rtl .mw-content-ltr .mw-edit=
+section { margin-left: 1em; }
+  .mw-content-rtl .mw-editsection, .mw-content-ltr .mw-content-rtl .mw-edit=
+section { margin-right: 1em; }
+  sup, sub { line-height: 1; }
+}
+
+.mw-headline-anchor { display: none; }
+
+@media screen {
+  a { text-decoration: none; color: rgb(6, 69, 173); background: none; }
+  a:visited { color: rgb(11, 0, 128); }
+  a:active { color: rgb(250, 167, 0); }
+  a:hover, a:focus { text-decoration: underline; }
+  a:lang(ar), a:lang(kk-arab), a:lang(mzn), a:lang(ps), a:lang(ur) { text-d=
+ecoration: none; }
+  a.stub { color: rgb(119, 34, 51); }
+  a.new, #p-personal a.new { color: rgb(186, 0, 0); }
+  a.new:visited, #p-personal a.new:visited { color: rgb(165, 88, 88); }
+  .mw-body a.extiw, .mw-body a.extiw:active { color: rgb(51, 102, 187); }
+  .mw-body a.extiw:visited { color: rgb(102, 51, 102); }
+  .mw-body a.extiw:active { color: rgb(187, 102, 51); }
+  .mw-body a.external { color: rgb(51, 102, 187); }
+  .mw-body a.external:visited { color: rgb(102, 51, 102); }
+  .mw-body a.external:active { color: rgb(187, 102, 51); }
+  .mw-body a.external.free { overflow-wrap: break-word; }
+  img { border: none; vertical-align: middle; }
+  hr { height: 1px; color: rgb(170, 170, 170); background-color: rgb(170, 1=
+70, 170); border: 0px; margin: 0.2em 0px; }
+  h1, h2, h3, h4, h5, h6 { color: black; background: none; font-weight: nor=
+mal; margin: 0px; overflow: hidden; padding-top: 0.5em; padding-bottom: 0.1=
+7em; border-bottom: 1px solid rgb(170, 170, 170); }
+  h1 { font-size: 188%; }
+  h2 { font-size: 150%; }
+  h3, h4, h5, h6 { border-bottom: none; font-weight: bold; }
+  h3 { font-size: 128%; }
+  h4 { font-size: 116%; }
+  h5 { font-size: 108%; }
+  h6 { font-size: 100%; }
+  h1, h2 { margin-bottom: 0.6em; }
+  h3, h4, h5 { margin-bottom: 0.3em; }
+  p { margin: 0.4em 0px 0.5em; }
+  p img { margin: 0px; }
+  ul { list-style-type: square; margin: 0.3em 0px 0px 1.6em; padding: 0px; =
+}
+  ol { margin: 0.3em 0px 0px 3.2em; padding: 0px; list-style-image: none; }
+  li { margin-bottom: 0.1em; }
+  dt { font-weight: bold; margin-bottom: 0.1em; }
+  dl { margin-top: 0.2em; margin-bottom: 0.5em; }
+  dd { margin-left: 1.6em; margin-bottom: 0.1em; }
+  pre, code, tt, kbd, samp, .mw-code { font-family: monospace, Courier; }
+  code { color: black; background-color: rgb(249, 249, 249); border: 1px so=
+lid rgb(221, 221, 221); border-radius: 2px; padding: 1px 4px; }
+  pre, .mw-code { color: black; background-color: rgb(249, 249, 249); borde=
+r: 1px solid rgb(221, 221, 221); padding: 1em; white-space: pre-wrap; }
+  table { font-size: 100%; }
+  fieldset { border: 1px solid rgb(47, 111, 171); margin: 1em 0px; padding:=
+ 0px 1em 1em; }
+  fieldset.nested { margin: 0px 0px 0.5em; padding: 0px 0.5em 0.5em; }
+  legend { padding: 0.5em; font-size: 95%; }
+  form { border: none; margin: 0px; }
+  textarea { width: 100%; padding: 0.1em; display: block; box-sizing: borde=
+r-box; }
+  .center { width: 100%; text-align: center; }
+  .center * { margin-left: auto; margin-right: auto; }
+  .small { font-size: 94%; }
+  table.small { font-size: 100%; }
+  #toc, .toc, .mw-warning, .toccolours { border: 1px solid rgb(170, 170, 17=
+0); background-color: rgb(249, 249, 249); padding: 5px; font-size: 95%; }
+  #toc, .toc { display: table; zoom: 1; padding: 7px; }
+  table#toc, table.toc { border-collapse: collapse; }
+  table#toc td, table.toc td { padding: 0px; }
+  #toc h2, .toc h2 { display: inline; border: none; padding: 0px; font-size=
+: 100%; font-weight: bold; }
+  #toc #toctitle, .toc #toctitle, #toc .toctitle, .toc .toctitle { text-ali=
+gn: center; }
+  #toc ul, .toc ul { list-style-type: none; list-style-image: none; margin-=
+left: 0px; padding: 0px; text-align: left; }
+  #toc ul ul, .toc ul ul { margin: 0px 0px 0px 2em; }
+  .tocnumber, .toctext { display: table-cell; text-decoration: inherit; }
+  .tocnumber { padding-left: 0px; padding-right: 0.5em; }
+  .mw-content-ltr .tocnumber { padding-left: 0px; padding-right: 0.5em; }
+  .mw-content-rtl .tocnumber { padding-left: 0.5em; padding-right: 0px; }
+  .mw-warning { margin-left: 50px; margin-right: 50px; text-align: center; =
+}
+  div.floatright, table.floatright { margin: 0px 0px 0.5em 0.5em; border: 0=
+px; }
+  div.floatright p { font-style: italic; }
+  div.floatleft, table.floatleft { margin: 0px 0.5em 0.5em 0px; border: 0px=
+; }
+  div.floatleft p { font-style: italic; }
+  div.thumb { margin-bottom: 0.5em; width: auto; background-color: transpar=
+ent; }
+  div.thumbinner { border: 1px solid rgb(204, 204, 204); padding: 3px; back=
+ground-color: rgb(249, 249, 249); font-size: 94%; text-align: center; overf=
+low: hidden; }
+  html .thumbimage { border: 1px solid rgb(204, 204, 204); }
+  html .thumbcaption { border: none; line-height: 1.4em; padding: 3px; font=
+-size: 94%; text-align: left; }
+  div.magnify { float: right; margin-left: 3px; }
+  div.magnify a { display: block; text-indent: 15px; white-space: nowrap; o=
+verflow: hidden; width: 15px; height: 11px; background-image: linear-gradie=
+nt(transparent, transparent), url("data:image/svg+xml,%3C%3Fxml%20version%3=
+D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3Csvg%=
+20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2=
+011%2015%22%20width%3D%2215%22%20height%3D%2211%22%3E%0A%20%20%20%20%3Cg%20=
+id%3D%22magnify-clip%22%20fill%3D%22%23fff%22%20stroke%3D%22%23000%22%3E%0A=
+%20%20%20%20%20%20%20%20%3Cpath%20id%3D%22bigbox%22%20d%3D%22M1.509%201.865=
+h10.99v7.919h-10.99z%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20id%3D%22s=
+mallbox%22%20d%3D%22M-1.499%206.868h5.943v4.904h-5.943z%22%2F%3E%0A%20%20%2=
+0%20%3C%2Fg%3E%0A%3C%2Fsvg%3E%0A"); user-select: none; }
+  img.thumbborder { border: 1px solid rgb(221, 221, 221); }
+  .mw-content-ltr .thumbcaption { text-align: left; }
+  .mw-content-ltr .magnify { float: right; margin-left: 3px; margin-right: =
+0px; }
+  .mw-content-ltr div.magnify a { background-image: linear-gradient(transpa=
+rent, transparent), url("data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22=
+%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3Csvg%20xmlns%3D=
+%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2011%2015%2=
+2%20width%3D%2215%22%20height%3D%2211%22%3E%0A%20%20%20%20%3Cg%20id%3D%22ma=
+gnify-clip%22%20fill%3D%22%23fff%22%20stroke%3D%22%23000%22%3E%0A%20%20%20%=
+20%20%20%20%20%3Cpath%20id%3D%22bigbox%22%20d%3D%22M1.509%201.865h10.99v7.9=
+19h-10.99z%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20id%3D%22smallbox%22=
+%20d%3D%22M-1.499%206.868h5.943v4.904h-5.943z%22%2F%3E%0A%20%20%20%20%3C%2F=
+g%3E%0A%3C%2Fsvg%3E%0A"); }
+  .mw-content-rtl .thumbcaption { text-align: right; }
+  .mw-content-rtl .magnify { float: left; margin-left: 0px; margin-right: 3=
+px; }
+  .mw-content-rtl div.magnify a { background-image: linear-gradient(transpa=
+rent, transparent), url("data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22=
+%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3Csvg%20xmlns%3D=
+%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2011%2015%2=
+2%20width%3D%2215%22%20height%3D%2211%22%3E%0A%20%20%20%20%3Cg%20id%3D%22ma=
+gnify-clip%22%20fill%3D%22%23fff%22%20stroke%3D%22%23000%22%3E%0A%20%20%20%=
+20%20%20%20%20%3Cpath%20id%3D%22bigbox%22%20d%3D%22M9.491%201.865h-10.99v7.=
+919h10.99z%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20id%3D%22smallbox%22=
+%20d%3D%22M12.499%206.868h-5.943v4.904h5.943z%22%2F%3E%0A%20%20%20%20%3C%2F=
+g%3E%0A%3C%2Fsvg%3E%0A"); }
+  div.tright { margin: 0.5em 0px 1.3em 1.4em; }
+  div.tleft { margin: 0.5em 1.4em 1.3em 0px; }
+  .catlinks { border: 1px solid rgb(170, 170, 170); background-color: rgb(2=
+49, 249, 249); padding: 5px; margin-top: 1em; clear: both; }
+  .editOptions { background-color: rgb(240, 240, 240); border-right: 1px so=
+lid silver; border-bottom: 1px solid silver; border-left: 1px solid silver;=
+ border-image: initial; border-top: none; padding: 1em 1em 1.5em; margin-bo=
+ttom: 2em; }
+  .usermessage { background-color: rgb(255, 206, 123); border: 1px solid rg=
+b(255, 165, 0); color: black; font-weight: bold; margin: 2em 0px 1em; paddi=
+ng: 0.5em 1em; vertical-align: middle; }
+  #siteNotice { position: relative; text-align: center; margin: 0px; }
+  #localNotice { margin-bottom: 0.9em; }
+  .firstHeading { margin-bottom: 0.1em; line-height: 1.2em; padding-bottom:=
+ 0px; }
+  #siteSub { display: none; }
+  #jump-to-nav { margin-top: -1.4em; margin-bottom: 1.4em; }
+  #contentSub, #contentSub2 { font-size: 84%; line-height: 1.2em; margin: 0=
+px 0px 1.4em 1em; color: rgb(84, 84, 84); width: auto; }
+  span.subpages { display: block; }
+}
+
+.mw-wiki-logo { background-image: url("/wiki/resources/assets/wiki.png?de8c=
+8"); }
+
+@media screen {
+  html { font-size: 100%; }
+  html, body { height: 100%; margin: 0px; padding: 0px; font-family: sans-s=
+erif; }
+  body { background-color: rgb(246, 246, 246); }
+  .mw-body { margin-left: 10em; padding: 1em; border-width: 1px 0px 1px 1px=
+; border-style: solid; border-color: rgb(167, 215, 249); border-image: init=
+ial; margin-top: -1px; background-color: rgb(255, 255, 255); color: rgb(37,=
+ 37, 37); direction: ltr; }
+  .mw-body .mw-editsection, .mw-body .mw-editsection-like { font-family: sa=
+ns-serif; }
+  .mw-body p { line-height: inherit; margin: 0.5em 0px; }
+  .mw-body h1, .mw-body h2 { font-family: "Linux Libertine", Georgia, Times=
+, serif; line-height: 1.3; margin-bottom: 0.25em; padding: 0px; }
+  .mw-body h1 { font-size: 1.8em; }
+  .mw-body .mw-body-content h1 { margin-top: 1em; }
+  .mw-body h2 { font-size: 1.5em; margin-top: 1em; }
+  .mw-body h3, .mw-body h4, .mw-body h5, .mw-body h6 { line-height: 1.6; ma=
+rgin-top: 0.3em; margin-bottom: 0px; padding-bottom: 0px; }
+  .mw-body h3 { font-size: 1.2em; }
+  .mw-body h3, .mw-body h4 { font-weight: bold; }
+  .mw-body h4, .mw-body h5, .mw-body h6 { font-size: 100%; }
+  .mw-body #toc h2, .mw-body .toc h2 { font-size: 100%; font-family: sans-s=
+erif; }
+  .mw-body .firstHeading { overflow: visible; }
+  .mw-body .mw-indicators { float: right; line-height: 1.6; font-size: 0.87=
+5em; position: relative; z-index: 1; }
+  .mw-body .mw-indicator { display: inline-block; zoom: 1; }
+  div.emptyPortlet { display: none; }
+  ul { list-style-type: disc; list-style-image: url("data:image/svg+xml,%3C=
+%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%0A%3Csvg%20xmln=
+s%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20widt=
+h%3D%225%22%20height%3D%2213%22%3E%0A%3Ccircle%20cx%3D%222.5%22%20cy%3D%229=
+.5%22%20r%3D%222.5%22%20fill%3D%22%2300528c%22%2F%3E%0A%3C%2Fsvg%3E%0A"); }
+  pre, .mw-code { line-height: 1.3em; }
+  #siteNotice { font-size: 0.8em; }
+  .redirectText { font-size: 140%; }
+  .redirectMsg p { margin: 0px; }
+  .mw-body-content { position: relative; line-height: 1.6; font-size: 0.875=
+em; z-index: 0; }
+  #p-personal { position: absolute; top: 0.33em; right: 0.75em; z-index: 10=
+0; }
+  #p-personal h3 { display: none; }
+  #p-personal ul { list-style-type: none; list-style-image: none; margin: 0=
+px; padding-left: 10em; }
+  #p-personal li { line-height: 1.125em; float: left; margin-left: 0.75em; =
+margin-top: 0.5em; font-size: 0.75em; white-space: nowrap; }
+  #pt-userpage, #pt-anonuserpage { background-position: left top; backgroun=
+d-repeat: no-repeat; background-image: linear-gradient(transparent, transpa=
+rent), url("data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3=
+D%22utf-8%22%3F%3E%0A%3C%21DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%=
+20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%=
+2FDTD%2Fsvg11.dtd%22%3E%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22=
+%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22=
+http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0=
+A%09%20width%3D%2212px%22%20height%3D%2213.836px%22%20viewBox%3D%220%200%20=
+12%2013.836%22%20enable-background%3D%22new%200%200%2012%2013.836%22%20xml%=
+3Aspace%3D%22preserve%22%3E%0A%3Cpath%20fill%3D%22%23777777%22%20d%3D%22M1.=
+938%2C6.656c-1.32%2C1.485-1.47%2C3.15-0.97%2C4.25c0.323%2C0.707%2C0.78%2C1.=
+127%2C1.313%2C1.375%0A%09c0.496%2C0.229%2C1.074%2C0.273%2C1.658%2C0.282c0.0=
+23%2C0%2C0.04%2C0.03%2C0.062%2C0.03h4.187c0.61%2C0%2C1.225-0.125%2C1.75-0.4=
+05%0A%09c0.527-0.28%2C0.961-0.718%2C1.188-1.376c0.335-0.964%2C0.175-2.529-1=
+.094-4.03C9.094%2C7.954%2C7.68%2C8.719%2C6.065%2C8.719%0A%09c-1.677%2C0-3.1=
+82-0.812-4.125-2.063H1.938z%22%2F%3E%0A%3Cpath%20fill%3D%22%23777777%22%20d=
+%3D%22M6.063%2C0c-1.89%2C0-3.595%2C1.674-3.594%2C3.563C2.467%2C5.45%2C4.173=
+%2C7.155%2C6.06%2C7.155%0A%09c1.89%2C0%2C3.564-1.705%2C3.563-3.593C9.625%2C=
+1.673%2C7.95%2C0%2C6.063%2C0L6.063%2C0z%22%2F%3E%0A%3C%2Fsvg%3E%0A"); paddi=
+ng-left: 15px !important; }
+  #pt-anonuserpage { color: rgb(112, 112, 112); }
+  #p-search { float: left; margin-right: 0.5em; margin-left: 0.5em; }
+  #p-search h3 { display: none; }
+  #p-search form, #p-search input { margin: 0.4em 0px 0px; }
+  div#simpleSearch { display: block; width: 20vw; min-width: 5em; max-width=
+: 20em; padding-right: 1.4em; height: 1.4em; margin-top: 0.65em; position: =
+relative; min-height: 1px; border: 1px solid rgb(170, 170, 170); color: bla=
+ck; background-color: white; background-image: url("data:image/png;base64,i=
+VBORw0KGgoAAAANSUhEUgAAAAEAAAAQCAIAAABY/YLgAAAAJUlEQVQIHQXBsQEAAAjDoND/73UW=
+dnerhmHVsDQZJrNWVg3Dqge6bgMe6bejNAAAAABJRU5ErkJggg=3D=3D"); background-posi=
+tion: left top; background-repeat: repeat-x; }
+  div#simpleSearch input { margin: 0px; padding: 0px; border: 0px; backgrou=
+nd-color: transparent; color: black; }
+  div#simpleSearch #searchInput { width: 100%; padding: 0.2em 0px 0.2em 0.2=
+em; font-size: 13px; direction: ltr; appearance: textfield; }
+  div#simpleSearch #searchInput:focus { outline: none; }
+  div#simpleSearch #searchInput.placeholder { color: rgb(153, 153, 153); }
+  div#simpleSearch #searchInput::-webkit-search-decoration, div#simpleSearc=
+h #searchInput::-webkit-search-cancel-button, div#simpleSearch #searchInput=
+::-webkit-search-results-button, div#simpleSearch #searchInput::-webkit-sea=
+rch-results-decoration { appearance: textfield; }
+  div#simpleSearch #searchButton, div#simpleSearch #mw-searchButton { posit=
+ion: absolute; top: 0px; right: 0px; width: 1.65em; height: 100%; cursor: p=
+ointer; text-indent: -99999px; line-height: 1; direction: ltr; white-space:=
+ nowrap; overflow: hidden; background-image: linear-gradient(transparent, t=
+ransparent), url("data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20enco=
+ding%3D%22UTF-8%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%=
+2Fsvg%22%20width%3D%2212%22%20height%3D%2213%22%3E%3Cg%20stroke-width%3D%22=
+2%22%20stroke%3D%22%236c6c6c%22%20fill%3D%22none%22%3E%3Cpath%20d%3D%22M11.=
+29%2011.71l-4-4%22%2F%3E%3Ccircle%20cx%3D%225%22%20cy%3D%225%22%20r%3D%224%=
+22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"); background-position: center center; backg=
+round-repeat: no-repeat; }
+  div#simpleSearch #mw-searchButton { z-index: 1; }
+  div.vectorTabs h3 { display: none; }
+  div.vectorTabs { float: left; height: 2.5em; background-image: url("data:=
+image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAuCAIAAABmjeQ9AAAAQ0lEQVR4AW=
+VOhQEAIAzC/X+xAXbXeoDFGA3A9yk1n4juBROcUegfarWjP3ojZvEzxs6j+nygmo+zzsk79nY+t=
+OxdEhlf3UHVgUFrVwAAAABJRU5ErkJggg=3D=3D"); background-position: left bottom=
+; background-repeat: no-repeat; padding-left: 1px; }
+  div.vectorTabs ul { float: left; height: 100%; list-style-type: none; lis=
+t-style-image: none; margin: 0px; padding: 0px; background-image: url("data=
+:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAuCAIAAABmjeQ9AAAAQ0lEQVR4A=
+WVOhQEAIAzC/X+xAXbXeoDFGA3A9yk1n4juBROcUegfarWjP3ojZvEzxs6j+nygmo+zzsk79nY+=
+tOxdEhlf3UHVgUFrVwAAAABJRU5ErkJggg=3D=3D"); background-position: right bott=
+om; background-repeat: no-repeat; }
+  div.vectorTabs ul li { float: left; line-height: 1.125em; display: inline=
+-block; height: 100%; margin: 0px; padding: 0px; background-color: rgb(243,=
+ 243, 243); background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSU=
+hEUgAAAAEAAABkCAIAAADITs03AAAAO0lEQVR4AeSKhREAMQzDdN5/5uixuEKDpqgBjl2f78wd2=
+DVj1+26/h///PfteVMN7zoGebcg1/Y/ZQQAlAUtQCujIJMAAAAASUVORK5CYII=3D"); backgr=
+ound-position: left bottom; background-repeat: repeat-x; white-space: nowra=
+p; }
+  div.vectorTabs ul > li { display: block; }
+  div.vectorTabs li { }
+  div.vectorTabs li.new a, div.vectorTabs li.new a:visited { color: rgb(165=
+, 88, 88); }
+  div.vectorTabs li.selected { background-image: url("data:image/png;base64=
+,iVBORw0KGgoAAAANSUhEUgAAAAEAAABkAQAAAABvV2fNAAAADElEQVR4AWNoGB4QAInlMgFKeR=
+KBAAAAAElFTkSuQmCC"); }
+  div.vectorTabs li.selected a, div.vectorTabs li.selected a:visited { colo=
+r: rgb(51, 51, 51); text-decoration: none; }
+  div.vectorTabs li.icon a { background-position: right bottom; background-=
+repeat: no-repeat; }
+  div.vectorTabs li a { display: inline-block; height: 1.9em; padding-left:=
+ 0.5em; padding-right: 0.5em; color: rgb(6, 69, 173); cursor: pointer; font=
+-size: 0.8em; }
+  div.vectorTabs li > a { display: block; }
+  div.vectorTabs span { display: inline-block; background-image: url("data:=
+image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAuCAIAAABmjeQ9AAAAQ0lEQVR4AW=
+VOhQEAIAzC/X+xAXbXeoDFGA3A9yk1n4juBROcUegfarWjP3ojZvEzxs6j+nygmo+zzsk79nY+t=
+OxdEhlf3UHVgUFrVwAAAABJRU5ErkJggg=3D=3D"); background-position: right botto=
+m; background-repeat: no-repeat; }
+  div.vectorTabs span a { display: inline-block; padding-top: 1.25em; }
+  div.vectorTabs span > a { float: left; display: block; }
+  div.vectorMenu { direction: ltr; float: left; cursor: pointer; position: =
+relative; }
+  body.rtl div.vectorMenu { direction: rtl; }
+  div#mw-head div.vectorMenu h3 { float: left; background-image: url("data:=
+image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAuCAIAAABmjeQ9AAAAQ0lEQVR4AW=
+VOhQEAIAzC/X+xAXbXeoDFGA3A9yk1n4juBROcUegfarWjP3ojZvEzxs6j+nygmo+zzsk79nY+t=
+OxdEhlf3UHVgUFrVwAAAABJRU5ErkJggg=3D=3D"); background-repeat: no-repeat; ba=
+ckground-position: right bottom; font-size: 1em; height: 2.5em; padding-rig=
+ht: 1px; margin-right: -1px; }
+  div.vectorMenu h3 span { display: block; font-size: 0.8em; padding-left: =
+0.7em; padding-top: 1.375em; margin-right: 20px; font-weight: normal; color=
+: rgb(77, 77, 77); }
+  div.vectorMenu h3 a { position: absolute; top: 0px; right: 0px; width: 20=
+px; height: 2.5em; background-image: linear-gradient(transparent, transpare=
+nt), url("data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%=
+22UTF-8%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22=
+%20width%3D%2222%22%20height%3D%2216%22%3E%3Cpath%20d%3D%22M15.502%206.001l=
+-5%205.001-5-5.001z%22%20fill%3D%22%23797979%22%2F%3E%3C%2Fsvg%3E"); backgr=
+ound-position: 100% 70%; background-repeat: no-repeat; transition: backgrou=
+nd-position 250ms ease 0s; }
+  div.vectorMenu.menuForceShow h3 a { background-position: 100% 100%; }
+  div.vectorMenuFocus h3 a { background-image: linear-gradient(transparent,=
+ transparent), url("data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20en=
+coding%3D%22UTF-8%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F200=
+0%2Fsvg%22%20width%3D%2222%22%20height%3D%2216%22%3E%3Cpath%20d%3D%22M15.50=
+2%206.001l-5%205.001-5-5.001z%22%20fill%3D%22%23929292%22%2F%3E%3C%2Fsvg%3E=
+"); }
+  div.vectorMenu div.menu { min-width: 100%; position: absolute; top: 2.5em=
+; left: -1px; background-color: white; border-width: 0px 1px 1px; border-st=
+yle: solid; border-color: silver; border-image: initial; clear: both; text-=
+align: left; display: none; z-index: 1; }
+  div.vectorMenu:hover div.menu, div.vectorMenu.menuForceShow div.menu { di=
+splay: block; }
+  div.vectorMenu ul { list-style-type: none; list-style-image: none; paddin=
+g: 0px; margin: 0px; text-align: left; }
+  div.vectorMenu li { padding: 0px; margin: 0px; text-align: left; line-hei=
+ght: 1em; }
+  div.vectorMenu li a { display: inline-block; padding: 0.5em; white-space:=
+ nowrap; color: rgb(6, 69, 173); cursor: pointer; font-size: 0.8em; }
+  div.vectorMenu li > a { display: block; }
+  div.vectorMenu li.selected a, div.vectorMenu li.selected a:visited { colo=
+r: rgb(51, 51, 51); text-decoration: none; }
+  * html div.vectorMenu div.menu { display: block; position: static; border=
+: 0px; }
+  * html div#mw-head div.vectorMenu h3 { display: none; }
+  * html div.vectorMenu li { float: left; line-height: 1.125em; border-righ=
+t: 1px solid rgb(167, 215, 249); }
+  * html div.vectorMenu li a { padding-top: 1.25em; }
+  @-webkit-keyframes rotate {=20
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+  @keyframes rotate {=20
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+  #ca-unwatch.icon a, #ca-watch.icon a { margin: 0px; padding: 3.1em 0px 0p=
+x; display: block; width: 26px; height: 0px; overflow: hidden; background-p=
+osition: 5px 60%; }
+  #ca-unwatch.icon a { background-image: linear-gradient(transparent, trans=
+parent), url("data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding=
+%3D%22UTF-8%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsv=
+g%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20width=
+%3D%2216%22%20height%3D%2216%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22a%2=
+2%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23c2edff%22%2F%3E%3Cstop%=
+20offset%3D%22.5%22%20stop-color%3D%22%2368bdff%22%2F%3E%3Cstop%20offset%3D=
+%221%22%20stop-color%3D%22%23fff%22%2F%3E%3C%2FlinearGradient%3E%3ClinearGr=
+adient%20x1%3D%2213.47%22%20y1%3D%2214.363%22%20x2%3D%224.596%22%20y2%3D%22=
+3.397%22%20id%3D%22b%22%20xlink%3Ahref%3D%22%23a%22%20gradientUnits%3D%22us=
+erSpaceOnUse%22%2F%3E%3C%2Fdefs%3E%3Cpath%20d%3D%22M8.103%201.146l2.175%204=
+.408%204.864.707-3.52%203.431.831%204.845-4.351-2.287-4.351%202.287.831-4.8=
+45-3.52-3.431%204.864-.707z%22%20fill%3D%22url%28%23b%29%22%20stroke%3D%22%=
+237cb5d1%22%20stroke-width%3D%220.9999199999999999%22%2F%3E%3C%2Fsvg%3E"); =
+}
+  #ca-watch.icon a { background-image: linear-gradient(transparent, transpa=
+rent), url("data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3=
+D%22UTF-8%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%=
+22%20width%3D%2216%22%20height%3D%2216%22%3E%3Cpath%20d%3D%22M8.103%201.146=
+l2.175%204.408%204.864.707-3.52%203.431.831%204.845-4.351-2.287-4.351%202.2=
+87.831-4.845-3.52-3.431%204.864-.707z%22%20fill%3D%22%23fff%22%20stroke%3D%=
+22%237cb5d1%22%20stroke-width%3D%220.9999199999999999%22%2F%3E%3C%2Fsvg%3E"=
+); }
+  #ca-unwatch.icon a:hover, #ca-unwatch.icon a:focus { background-image: li=
+near-gradient(transparent, transparent), url("data:image/svg+xml,%3C%3Fxml%=
+20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%3Csvg%20xmlns%3D%22htt=
+p%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.=
+w3.org%2F1999%2Fxlink%22%20width%3D%2216%22%20height%3D%2216%22%3E%3Cdefs%3=
+E%3ClinearGradient%20id%3D%22a%22%3E%3Cstop%20offset%3D%220%22%20stop-color=
+%3D%22%23c2edff%22%2F%3E%3Cstop%20offset%3D%22.5%22%20stop-color%3D%22%2368=
+bdff%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23fff%22%2F%3E%3=
+C%2FlinearGradient%3E%3ClinearGradient%20x1%3D%2213.47%22%20y1%3D%2214.363%=
+22%20x2%3D%224.596%22%20y2%3D%223.397%22%20id%3D%22b%22%20xlink%3Ahref%3D%2=
+2%23a%22%20gradientUnits%3D%22userSpaceOnUse%22%2F%3E%3C%2Fdefs%3E%3Cpath%2=
+0d%3D%22M8.103%201.146l2.175%204.408%204.864.707-3.52%203.431.831%204.845-4=
+.351-2.287-4.351%202.287.831-4.845-3.52-3.431%204.864-.707z%22%20fill%3D%22=
+url%28%23b%29%22%20stroke%3D%22%23c8b250%22%20stroke-width%3D%220.999919999=
+9999999%22%2F%3E%3C%2Fsvg%3E"); }
+  #ca-watch.icon a:hover, #ca-watch.icon a:focus { background-image: linear=
+-gradient(transparent, transparent), url("data:image/svg+xml,%3C%3Fxml%20ve=
+rsion%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%3Csvg%20xmlns%3D%22http%3A=
+%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%3E%=
+3Cpath%20d%3D%22M8.103%201.146l2.175%204.408%204.864.707-3.52%203.431.831%2=
+04.845-4.351-2.287-4.351%202.287.831-4.845-3.52-3.431%204.864-.707z%22%20fi=
+ll%3D%22%23fff%22%20stroke%3D%22%23c8b250%22%20stroke-width%3D%220.99991999=
+99999999%22%2F%3E%3C%2Fsvg%3E"); }
+  #ca-unwatch.icon a.loading, #ca-watch.icon a.loading { background-image: =
+linear-gradient(transparent, transparent), url("data:image/svg+xml,%3C%3Fxm=
+l%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%3Csvg%20xmlns%3D%22h=
+ttp%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%=
+22%3E%3Cpath%20d%3D%22M8.103%201.146l2.175%204.408%204.864.707-3.52%203.431=
+.831%204.845-4.351-2.287-4.351%202.287.831-4.845-3.52-3.431%204.864-.707z%2=
+2%20fill%3D%22%23fff%22%20stroke%3D%22%23d1d1d1%22%20stroke-width%3D%220.99=
+99199999999999%22%2F%3E%3C%2Fsvg%3E"); animation: 700ms linear 0s infinite =
+normal none running rotate; outline: none; cursor: default; pointer-events:=
+ none; background-position: 50% 60%; transform-origin: 50% 57%; }
+  #ca-unwatch.icon a span, #ca-watch.icon a span { display: none; }
+  #mw-navigation h2 { position: absolute; top: -9999px; }
+  #mw-page-base { height: 5em; background-position: left bottom; background=
+-repeat: repeat-x; background-image: linear-gradient(rgb(255, 255, 255) 50%=
+, rgb(246, 246, 246) 100%); background-color: rgb(255, 255, 255); }
+  #mw-head-base { margin-top: -5em; margin-left: 10em; height: 5em; }
+  div#mw-head { position: absolute; top: 0px; right: 0px; width: 100%; }
+  div#mw-head h3 { margin: 0px; padding: 0px; }
+  #left-navigation { float: left; margin-left: 10em; margin-top: 2.5em; mar=
+gin-bottom: -2.5em; display: inline; }
+  #right-navigation { float: right; margin-top: 2.5em; }
+  #p-logo { position: absolute; top: -160px; left: 0px; width: 10em; height=
+: 160px; }
+  #p-logo a { display: block; width: 10em; height: 160px; background-repeat=
+: no-repeat; background-position: center center; text-decoration: none; }
+  div#mw-panel { font-size: inherit; position: absolute; top: 160px; paddin=
+g-top: 1em; width: 10em; left: 0px; }
+  div#mw-panel div.portal { margin: 0px 0.6em 0px 0.7em; padding: 0.25em 0p=
+x; direction: ltr; background-position: left top; background-repeat: no-rep=
+eat; background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA=
+IwAAAABCAAAAAAphRnkAAAAJ0lEQVQIW7XFsQEAIAyAMPD/b7uLWz8wS5youFW1UREfiIpH1Q2V=
+Bz7fGPS1dOGeAAAAAElFTkSuQmCC"); }
+  div#mw-panel div.portal h3 { font-size: 0.75em; color: rgb(77, 77, 77); f=
+ont-weight: normal; margin: 0px; padding: 0.25em 0px 0.25em 0.25em; cursor:=
+ default; border: none; }
+  div#mw-panel div.portal div.body { margin: 0px 0px 0px 1.25em; padding-to=
+p: 0px; }
+  div#mw-panel div.portal div.body ul { list-style-type: none; list-style-i=
+mage: none; margin: 0px; padding: 0px; }
+  div#mw-panel div.portal div.body ul li { line-height: 1.125em; margin: 0p=
+x; padding: 0.25em 0px; font-size: 0.75em; overflow-wrap: break-word; }
+  div#mw-panel div.portal div.body ul li a { color: rgb(6, 69, 173); }
+  div#mw-panel div.portal div.body ul li a:visited { color: rgb(11, 0, 128)=
+; }
+  div#mw-panel #p-logo + div.portal { background-image: none; margin-top: 0=
+px; }
+  div#mw-panel #p-logo + div.portal h3 { display: none; }
+  div#mw-panel #p-logo + div.portal div.body { margin-left: 0.5em; }
+  div#footer { margin-left: 10em; margin-top: 0px; padding: 0.75em; directi=
+on: ltr; }
+  div#footer ul { list-style-type: none; list-style-image: none; margin: 0p=
+x; padding: 0px; }
+  div#footer ul li { margin: 0px; padding: 0.5em 0px; color: rgb(51, 51, 51=
+); font-size: 0.7em; }
+  div#footer #footer-icons { float: right; }
+  div#footer #footer-icons li { float: left; margin-left: 0.5em; line-heigh=
+t: 2em; text-align: right; }
+  div#footer #footer-info li { line-height: 1.4em; }
+  div#footer #footer-places li { float: left; margin-right: 1em; line-heigh=
+t: 2em; }
+  body.ltr div#footer #footer-places { float: left; }
+  .mw-body .external { background-position: right center; background-repeat=
+: no-repeat; background-image: linear-gradient(transparent, transparent), u=
+rl("data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-=
+8%22%20standalone%3D%22no%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.o=
+rg%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%2212%22%3E%3Cpath%20fill%=
+3D%22%23fff%22%20stroke%3D%22%2306c%22%20d%3D%22M1.5%204.518h5.982V10.5H1.5=
+z%22%2F%3E%3Cpath%20d%3D%22M5.765%201H11v5.39L9.427%207.937l-1.31-1.31L5.39=
+3%209.35l-2.69-2.688%202.81-2.808L4.2%202.544z%22%20fill%3D%22%2306f%22%2F%=
+3E%3Cpath%20d%3D%22M9.995%202.004l.022%204.885L8.2%205.07%205.32%207.95%204=
+.09%206.723l2.882-2.88-1.85-1.852z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fsvg%=
+3E"); padding-right: 13px; }
+}
+
+@media screen and (min-width: 982px) {
+  .mw-body { margin-left: 11em; padding: 1.25em 1.5em 1.5em; }
+  #p-logo { left: 0.5em; }
+  div#footer { margin-left: 11em; padding: 1.25em; }
+  #mw-panel { padding-left: 0.5em; }
+  #p-search { margin-right: 1em; }
+  #left-navigation { margin-left: 11em; }
+  #p-personal { right: 1em; }
+  #mw-head-base { margin-left: 11em; }
+}
+------MultipartBoundary--D4vkrxqZFIStPzlkieiIXrv9tko1a7N6VcDV97owcp----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://lms.onnocenter.or.id/wiki/resources/assets/wiki.png?de8c8
+
+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
+
+------MultipartBoundary--D4vkrxqZFIStPzlkieiIXrv9tko1a7N6VcDV97owcp----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://lms.onnocenter.or.id/wiki/resources/assets/poweredby_mediawiki_88x31.png
+
+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
+ShrKwP8D0I6xg1RTxMoAAAAASUVORK5CYII=
+
+------MultipartBoundary--D4vkrxqZFIStPzlkieiIXrv9tko1a7N6VcDV97owcp------
